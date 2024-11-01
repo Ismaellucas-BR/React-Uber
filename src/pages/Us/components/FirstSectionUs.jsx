@@ -14,17 +14,17 @@ function FirstSectionUs() {
               "url('https://www.uber-assets.com/image/upload/v1555699210/assets/63/cdb12d-a0cd-49fa-a6c0-6184a84d99ea/original/About_us_600.jpg')",
           }}
         >
-          <h1 className="absolute bottom-10 left-5 text-white font-txt-bold text-4xl md:bottom-20 md:left-10 md:text-5xl  lg:text-5xl lg:bottom-24 lg:left-24">
+          <h1 className="absolute bottom-10 left-5 text-white font-UberMoveBold text-4xl md:bottom-20 md:left-10 md:text-5xl  lg:text-5xl lg:bottom-24 lg:left-24">
             Quem somos
           </h1>
         </div>
       </section>
       <section className="px-5 py-10  lg:pl-24 lg:pr-96 lg:pt-14 lg:pb-7">
-        <h2 className="text-black text-3xl lg:text-4xl font-txt-bold">
+        <h2 className="text-black text-3xl lg:text-4xl font-UberMoveBold font-bold">
           Trabalhamos para melhorar a mobilidade das pessoas em todo o mundo
         </h2>
         <div className="mt-5 lg:pr-28 lg:pt-6">
-          <span className="text-black text-base">
+          <span className="text-black text-base font-UberMoveNormal font-normal">
             Mobilizamos o mundo. É nossa força vital. Corre por nossas veias. É
             o que nos tira da cama todas as manhãs. Isso nos leva a reimaginar
             constantemente como podemos nos mover melhor. Para você. Por todos
@@ -35,7 +35,7 @@ function FirstSectionUs() {
         </div>
       </section>
       <section className="pr-10 lg:pl-24 lg:pr-24">
-        <div>
+        <div className="px-5">
           <Accondion
             title="Leia a declaração completa sobre a nossa missão"
             content="Somos a Uber. Fazemos acontecer. Somos incansáveis na nossa missão de ajudar as pessoas a ir a qualquer lugar, conseguir o que quiserem e ganhar dinheiro do jeito delas. Mobilizamos o mundo. É nossa força vital. Corre por nossas veias. É o que nos tira da cama todas as manhãs. Isso nos leva a reimaginar constantemente como podemos nos mover melhor. Para você. Por todos os destinos que esperam você. Por tudo o que você quer alcançar. Para todas as formas de ganhar dinheiro. No mundo todo. Em tempo real. Na incrível velocidade do agora.
@@ -55,10 +55,10 @@ function FirstSectionUs() {
         }}
       >
         <div className="flex flex-col h-[380px] gap-5 w-2/4">
-          <h1 className="  text-white font-txt-bold text-4xl md:text-5xl  lg:text-5xl lg:leading-snug ">
+          <h1 className="  text-white font-UberMoveBold text-4xl md:text-5xl  lg:text-5xl lg:leading-snug ">
             Uma carta do nosso CEO
           </h1>
-          <span className="text-white text-base">
+          <span className="text-white text-base font-UberMoveNormal">
             Conheça o compromisso da Uber em disponibilizar a tecnologia que
             pode ajudar os usuários da nossa plataforma global a fazer a
             transição para a mobilidade sustentável.
@@ -115,7 +115,7 @@ function FirstSectionUs() {
       />
       <section className="first-section-black items-center justify-between lg:block w-full max-w-7xl mx-auto pt-5 px-5 mt-5 bg-white sm:pt-10 sm:flex sm:pb-10">
         <div className="left-side w-full   flex-col sm:ml-4 lg:h-auto lg:w-full">
-          <h2 className="text-gray-900 text-3xl mb-10 cta-text sm:mt-36 sm:text-4xl sm:leading-tight font-txt-bold md:mt-3">
+          <h2 className="text-gray-900 text-3xl mb-10 cta-text sm:mt-36 sm:text-4xl sm:leading-tight font-UberMoveBold md:mt-3">
             Informações da empresa
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-10 lg:w-full">
@@ -181,11 +181,14 @@ function FirstSectionUs() {
       </section>
       <section className="mt-10 flex-col bg-[#f6f6f6] w-full justify-center flex lg:py-5 lg:flex-row">
         <div className="leftside p-5 pt-5  lg:w-1/2 lg:p-20 flex flex-col space-y-5 gap-8">
-          <h2 className="text-4xl text-[rgb(51, 51, 51)] text-uber font-txt-bold lg:text-[52px] leading-tight">
+          <h2 className="text-4xl text-[rgb(51, 51, 51)] text-uber font-UberMoveBold lg:text-[52px] leading-tight">
             Venha reimaginar com a gente.
           </h2>
           <div>
-            <a href="#" className="bg-black p-5 text-white rounded-xl font-txt">
+            <a
+              href="#"
+              className="bg-black p-5 text-white rounded-xl font-UberMoveNormal"
+            >
               Buscar vagas
             </a>
           </div>

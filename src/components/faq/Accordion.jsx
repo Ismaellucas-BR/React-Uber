@@ -6,7 +6,7 @@ function Accondion({ title, content }) {
     <div className="pt-6 pb-2 w-full border-b  border-gray-400">
       <button
         onClick={() => setAccondionOpen(!accondionOpen)}
-        className=" flex justify-between items-start text-left w-full font-txt text-base pb-4"
+        className=" flex justify-between items-start text-left w-full font-UberMoveBold text-base pb-4"
       >
         {title}
         {/*accondionOpen ? <span>+</span> : <span>-</span>*/}

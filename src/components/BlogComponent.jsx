@@ -10,12 +10,12 @@ function BlogComponent(props) {
           height={800}
         />
       </div>
-      <h4 className="font-UberMove font-light text-base lg:text-lg my-4">
+      <h4 className="font-UberMove font-UberMoveBold text-lg lg:text-lg my-4">
         {props.title}
       </h4>
-      <p className="text-base">{props.content}</p>
+      <p className="text-base font-UberMoveNormal">{props.content}</p>
       <div className=" inline-flex my-10">
-        <p className="text-black font-UberMove font-light border-b pb-1">
+        <p className="text-black font-UberMoveNormal border-b pb-1">
           {props.titleBtn}
         </p>
       </div>

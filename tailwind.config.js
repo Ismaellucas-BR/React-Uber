@@ -1,20 +1,22 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",
-    "./src/global.css", // Caminho correto do arquivo global CSS
-  ],
+    darkMode: ["class"],
+    content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}", "./src/global.css"],
   theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-      fontFamily: {
-        UberMove: ["UberMove", "sans-serif"],
-      },
-    },
+  	extend: {
+  		fontFamily: {
+  			UberMoveBold: ["UberMoveBold", "sans-serif"],
+  			UberMoveLight: ["UberMoveLight", "sans-serif"],
+  			UberMoveMedium: ["UberMoveMedium", "sans-serif"],
+  			UberMoveNormal: ["UberMoveNormal", "sans-serif"]
+  		},
+  		borderRadius: {
+  			lg: 'var(--radius)',
+  			md: 'calc(var(--radius) - 2px)',
+  			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		colors: {}
+  	}
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };

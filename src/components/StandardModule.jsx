@@ -1,5 +1,3 @@
-import React from "react";
-import insideCar from "../assets/earner-illustra.webp";
 function StandardModule(props) {
   return (
     <section
@@ -18,23 +16,31 @@ function StandardModule(props) {
         className={`right-side w-full   mt-10  flex-col sm:min-[500px]   lg:justify-center  ${props.divRightClass}`}
       >
         <h2
-          className={` pr-6 text-4xl cta-text   sm:leading-tight ${props.h2Classe}`}
+          className={` pr-6 text-4xl cta-text font-UberMoveBold sm:leading-tight ${props.h2Classe}`}
         >
           {props.title}{" "}
         </h2>
-        <p className={`text-black mt-4 sm:mt-6 ${props.contentClasse}`}>
+        <p
+          className={`text-black font-UberMoveNormal mt-4 sm:mt-6 ${props.contentClasse}`}
+        >
           {props.content}
         </p>
         {props.showButton && (
           <div className="loginRedirect flex items-center mt-4 gap-5">
             {props.btn && (
-              <a target="_blank" href={props.link} className="btn-start mr-4">
+              <a
+                target="_blank"
+                href={props.link}
+                className="btn-start mr-4 font-UberMoveNormal"
+              >
                 {props.buttonText}
               </a>
             )}
-            <p className="text-black mt-4 border-b pb-1">{props.loginText}</p>
+            <p className="text-black mt-4 border-b pb-1 font-UberMoveNormal">
+              {props.loginText}
+            </p>
             {props.pExtra && (
-              <p className="text-black mt-4 border-b pb-1">
+              <p className="text-black mt-4 border-b pb-1 font-UberMoveNormal">
                 {props.loginText2}
               </p>
             )}
