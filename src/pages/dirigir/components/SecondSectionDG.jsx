@@ -14,10 +14,10 @@ function SecondSectiondg() {
           />
         </div>
         <div className="right-side mt-5  justify-end pb-10 sm:mt-0 sm:w-1/2  lg:flex lg:flex-col lg:justify-start lg:pl-32">
-          <h2 className="text-gray-900 text-3xl cta-text sm:mt-10 sm:text-4xl sm:leading-tight font-txt-bold">
+          <h2 className="text-gray-900 text-3xl cta-text sm:mt-10 sm:text-4xl sm:leading-tight font-UberMoveBold">
             Uma alternativa aos empregos de motoristas tradicionais
           </h2>
-          <p className="text-black mt-4 text-base font-txt-light font-UberMove font-normal">
+          <p className="text-black mt-4 text-base font-UberMoveNormal ">
             Dirigir com o app da Uber oferece uma oportunidade flexível de
             ganhos. É uma ótima alternativa aos trabalhos de motorista em tempo
             integral ou meio período, ou a um bico temporário ou sazonal. Ou

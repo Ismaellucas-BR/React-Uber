@@ -36,11 +36,11 @@ function StandardModule(props) {
                 {props.buttonText}
               </a>
             )}
-            <p className="text-black mt-4 border-b pb-1 font-UberMoveNormal">
+            <p className="link-underline text-black mt-4 border-b pb-1 font-UberMoveNormal">
               {props.loginText}
             </p>
             {props.pExtra && (
-              <p className="text-black mt-4 border-b pb-1 font-UberMoveNormal">
+              <p className="link-underline text-black mt-4 border-b pb-1 font-UberMoveNormal">
                 {props.loginText2}
               </p>
             )}

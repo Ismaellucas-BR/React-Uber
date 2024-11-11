@@ -47,6 +47,34 @@
   }
 }
 
+.link-underline {
+  position: relative;
+  text-decoration: none;
+  border-bottom: 2px solid #d3d3d3;
+  padding-bottom: 1px;
+  cursor: pointer;
+}
+
+.link-underline::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #333;
+  transition: width 500ms ease;
+  z-index: 1;
+}
+
+.link-underline:hover::after {
+  width: 100%;
+}
+
+.bg-phone {
+  background-image: url(assets/D_Driver_Campaign-Carbon-arabic2x.webp);
+}
+
 .cta-text,
 .font-uber,
 .text-h4-bold {

@@ -5,13 +5,16 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "../../components/ui/sheet";
+} from "./ui/sheet";
+import { List } from "@phosphor-icons/react";
 
 function Menu() {
   return (
     <Sheet>
-      <SheetTrigger>Open</SheetTrigger>
-      <SheetContent side="left" className="w-[400px] sm:w-[540px]">
+      <SheetTrigger>
+        <List size={32} />
+      </SheetTrigger>
+      <SheetContent>
         <SheetHeader>
           <SheetTitle>Are you absolutely sure?</SheetTitle>
           <SheetDescription>

@@ -15,7 +15,7 @@ function BlogComponent(props) {
       </h4>
       <p className="text-base font-UberMoveNormal">{props.content}</p>
       <div className=" inline-flex my-10">
-        <p className="text-black font-UberMoveNormal border-b pb-1">
+        <p className="link-underline text-black font-UberMoveNormal border-b pb-1">
           {props.titleBtn}
         </p>
       </div>

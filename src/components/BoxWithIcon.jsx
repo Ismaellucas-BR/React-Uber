@@ -8,7 +8,7 @@ function BoxWithIcon(props) {
       <p className="text-lg">{props.content}</p>
       <div>
         {props.showBtn && (
-          <p className="text-black mt-4 border-b pb-1 inline-block border-gray-500">
+          <p className="link-underline text-black mt-4 border-b pb-1 inline-block border-gray-500">
             {props.textBtn}
           </p>
         )}

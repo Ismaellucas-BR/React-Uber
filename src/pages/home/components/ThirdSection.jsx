@@ -2,7 +2,7 @@ import U4B from "../../../assets/u4b-square.webp";
 function ThirdSection() {
   return (
     <div className="w-full bg-white">
-      <section className="first-section-black flex flex-col items-center justify-between w-full max-w-7xl mx-auto pt-10 md:pt-5 px-5 bg-white sm:pt-20 lg:flex sm:pb-10 gap-10">
+      <section className="first-section-black flex flex-col items-center justify-between w-full max-w-7xl mx-auto pt-10 md:pt-5 px-5 bg-white sm:pt-20 lg:flex-row sm:pb-10 gap-10">
         <div className="left-side w-full flex flex-col lg:ml-4 lg:h-screen lg:w-2/5  gap-5">
           <h2 className="text-slate-800 text-4xl cta-text lg:mt-20 sm:text-5xl sm:leading-tight	">
             A plataforma Uber que você conhece, reinventada para empresas
@@ -21,7 +21,7 @@ function ThirdSection() {
             </a>
             <a
               target="_blank"
-              className="text-black mt-4 border-b pb-1"
+              className="link-underline text-black mt-4 border-b pb-1"
               href="https://www.uber.com/br/pt-br/business/?uclick_id=bf765484-6082-4c24-863d-1244774412a7"
             >
               Confira nossas soluções

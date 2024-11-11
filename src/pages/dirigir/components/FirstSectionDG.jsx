@@ -1,3 +1,4 @@
+import Illustration from "../../../assets/illustration-safety-01-1.webp";
 function FirstSectiondg() {
   return (
     <div className="w-full bg-black border-t border-white sm:h-auto">
@@ -6,20 +7,17 @@ function FirstSectiondg() {
           <h2 className="text-white text-4xl cta-text sm:mt-10 sm:text-5xl sm:leading-tight font-txt-bold">
             Dirija quando quiser e ganhe de acordo com suas necessidades
           </h2>
-          <p className="text-white mt-4 text-base font-txt">
+          <p className="text-white mt-4 text-base font-UberMoveNormal">
             Gere ganhos no horário que quiser.
           </p>
           <div className="loginRedirect flex items-center mt-4">
             <a className="btn-start-white mr-4">Começar</a>
-            <p className="text-white mt-4 border-b pb-1 font-txt">
-              Já tem uma conta? Fazer login
-            </p>
           </div>
         </div>
         <div className="right-side mt-5  hidden justify-end pb-10 sm:mt-0 sm:w-3/5  lg:flex lg:justify-start lg:pl-32">
           <img
             className="rounded-md "
-            src="/assets/illustration-safety-01-1.webp"
+            src={Illustration}
             width={500}
             height={500}
             alt="Mulher saindo do carro"

@@ -44,7 +44,7 @@ function Accondion({ title, content }) {
         }`}
       >
         <div className="overflow-hidden pb-1">
-          <span className="font-UberMove font-normal text-base text-black">
+          <span className="font-UberMoveNormal text-base text-black">
             {content}
           </span>
         </div>

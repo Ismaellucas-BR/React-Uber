@@ -9,9 +9,9 @@ function Header() {
       <div className="relative flex items-center justify-between w-full max-w-7xl mx-auto p-5 z-10">
         <div className="item justify-between items-center lg:flex">
           <a href="/">
-            <p className="font-UberMove font-medium text-2xl">Uber</p>
+            <p className="font-UberMoveMedium text-2xl">Uber</p>
           </a>
-          <nav className="hidden font-UberMove font-medium lg:flex text-white lg:ml-10 gap-5">
+          <nav className="hidden font-UberMoveMedium lg:flex text-white lg:ml-10 gap-5">
             <a href="/dirigir">Dirigir</a>
             <a href="/quem_somos">Sobre</a>
           </nav>

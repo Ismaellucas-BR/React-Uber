@@ -3,6 +3,8 @@ import Home from "./src/pages/home/Index";
 import Us from "./src/pages/Us/Index";
 import Dirigir from "./src/pages/dirigir/Index";
 import Header from "./src/components/Header";
+import Footer from "./src/components/Footer";
+import GettingStarted from "./src/pages/getting-started/index";
 function RoutesApp() {
   return (
     <BrowserRouter>
@@ -11,7 +13,9 @@ function RoutesApp() {
         <Route path="/" element={<Home />} />
         <Route path="/quem_somos" element={<Us />} />
         <Route path="/dirigir" element={<Dirigir />} />
+        <Route path="/getting-started" element={<GettingStarted />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
