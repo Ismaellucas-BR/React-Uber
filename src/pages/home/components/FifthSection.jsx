@@ -1,5 +1,5 @@
-import RideIconApp from "../../../assets/Rider-App-Icon_iOS.svg";
-import DriveIconApp from "../../../assets/Driver-App-Icon_iOS.svg";
+import RideIconApp from "../../../assets/svg/Rider-App-Icon_iOS.svg";
+import DriveIconApp from "../../../assets/svg/Driver-App-Icon_iOS.svg";
 import RideIconAppDesktop from "../../../assets/ride-app-desktop.webp";
 import DriveIconAppDesktop from "../../../assets/driver-app-desktop.webp";
 function FifthSection() {

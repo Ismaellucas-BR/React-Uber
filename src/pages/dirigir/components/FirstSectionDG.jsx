@@ -10,9 +10,6 @@ function FirstSectiondg() {
           <p className="text-white mt-4 text-base font-UberMoveNormal">
             Gere ganhos no horário que quiser.
           </p>
-          <div className="loginRedirect flex items-center mt-4">
-            <a className="btn-start-white mr-4">Começar</a>
-          </div>
         </div>
         <div className="right-side mt-5  hidden justify-end pb-10 sm:mt-0 sm:w-3/5  lg:flex lg:justify-start lg:pl-32">
           <img

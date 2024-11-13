@@ -11,13 +11,6 @@ function FirtsSection() {
           <p className="text-white font-UberMove font-normal">
             Solicite uma viagem, entre no carro e relaxe.
           </p>
-          <a
-            target="_blank"
-            className=" btn-price text-slate-200 "
-            href="https://m.uber.com/looking?uclick_id=bf765484-6082-4c24-863d-1244774412a7&marketing_vistor_id=13e8c7ec-0f3f-4bf4-85e6-ee7c3b2695bb"
-          >
-            Ver preços
-          </a>
         </div>
         <div className="right-side mt-10  flex justify-end pb-10 lg:mt-0 lg:w-3/5 lg:px-28">
           <img

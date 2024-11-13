@@ -12,7 +12,7 @@ function SecondSc() {
         />
       </div>
       <div className="right-side w-full   lg:mt-10  flex-col sm:min-[500px]    lg:justify-center lg:w-2/3 lg:p-20">
-        <h2 className="text-[36px] leading-9 md:text-5xl cta-text   sm:leading-tight ">
+        <h2 className="text-[36px] leading-9 md:text-[3.25rem] cta-text   sm:leading-tight ">
           Dirija quando quiser e ganhe de acordo com suas necessidades
         </h2>
         <p className="text-black mt-4 sm:mt-6 font-UberMove font-normal">
@@ -22,7 +22,7 @@ function SecondSc() {
         </p>
 
         <div className="loginRedirect flex items-center mt-4 gap-5">
-          <a target="_blank" className="btn-start mr-4" href="/dirigir">
+          <a className="btn-start mr-4" href="/dirigir">
             Começar
           </a>
         </div>

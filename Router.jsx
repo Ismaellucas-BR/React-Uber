@@ -5,6 +5,7 @@ import Dirigir from "./src/pages/dirigir/Index";
 import Header from "./src/components/Header";
 import Footer from "./src/components/Footer";
 import GettingStarted from "./src/pages/getting-started/index";
+import Solutions from "./src/pages/solution";
 function RoutesApp() {
   return (
     <BrowserRouter>
@@ -14,6 +15,7 @@ function RoutesApp() {
         <Route path="/quem_somos" element={<Us />} />
         <Route path="/dirigir" element={<Dirigir />} />
         <Route path="/getting-started" element={<GettingStarted />} />
+        <Route path="/solutions" element={<Solutions />} />
       </Routes>
       <Footer />
     </BrowserRouter>

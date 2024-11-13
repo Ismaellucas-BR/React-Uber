@@ -114,6 +114,14 @@
 .btn-price:hover {
   background-color: rgb(236, 236, 236);
 }
+@layer components {
+  .div-badge {
+    @apply flex flex-col gap-5;
+  }
+  .div-badge-text {
+    @apply flex flex-col gap-3;
+  }
+}
 
 /*Fifth Section css*/
 

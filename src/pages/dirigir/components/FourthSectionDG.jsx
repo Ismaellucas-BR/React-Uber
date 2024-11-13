@@ -2,18 +2,6 @@ import BlogComponent from "../../../components/BlogComponent";
 function FourthSectiondg() {
   return (
     <div className="w-full  mt-10 h-auto">
-      <section className="first-section-black items-center justify-between block w-full max-w-7xl  py-10 px-5  bg-gray-100 sm:pt-10 sm:flex sm:pb-10 lg:max-w-full lg:pl-20 lg:py-20">
-        <div className="left-side w-full   flex-col sm:ml-4 lg:h-auto lg:w-3/5">
-          <h2 className="text-black text-3xl cta-text sm:text-4xl sm:leading-tight font-UberMoveBold lg:text-[36px] lg:mt-0">
-            Sem veículo? Conheça as ofertas das locadoras
-          </h2>
-          <div className="loginRedirect flex items-center mt-4">
-            <p className="link-underline text-black mt-4 border-b pb-1 font-UberMoveNormal">
-              Conheça as opções para alugar um carro
-            </p>
-          </div>
-        </div>
-      </section>
       <section className="first-section-black items-center justify-between block w-full max-w-7xl mx-auto pt-5 px-5 mt-5 bg-white sm:pt-10 sm:flex sm:pb-10">
         <div className="left-side w-full   flex-col sm:ml-4 lg:h-auto lg:w-full">
           <h2 className="text-black text-3xl mb-10 cta-text sm:mt-36 sm:text-4xl sm:leading-tight font-UberMoveBold md:mt-3">
