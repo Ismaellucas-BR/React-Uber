@@ -2,6 +2,9 @@ import React from "react";
 import FirstSection from "./components/FirstSection";
 import SecondSection from "./components/SecondSection";
 import ThirdSection from "./components/ThirdSection";
+import VerticalTimeLine from "./components/VerticalTimeLine";
+import FourtSection from "./components/FourtSection";
+import FifthSection from "./components/FifthSection";
 
 function Solutions() {
   return (
@@ -9,6 +12,9 @@ function Solutions() {
       <FirstSection />
       <SecondSection />
       <ThirdSection />
+      <VerticalTimeLine />
+      <FourtSection />
+      <FifthSection />
     </main>
   );
 }
