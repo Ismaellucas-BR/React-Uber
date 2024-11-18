@@ -6,12 +6,12 @@ import BadgePlant from "../../../assets/svg/badge-plant-64x64.svg";
 function SecondSection() {
   return (
     <section className="w-full bg-black">
-      <div className="flex flex-col items-center justify-between w-full max-w-7xl  mx-auto  pt-10 px-5 bg-black gap-5 sm:pt-10 md:gap-5 lg:flex sm:pb-10 ">
-        <h2 className="text-white font-UberMoveBold text-3xl">
+      <div className="flex flex-col items-center justify-between w-full max-w-7xl  mx-auto  pt-10 px-5 bg-black gap-5 sm:pt-10 md:gap-5 lg:flex sm:pb-10 md:items-start">
+        <h2 className="w-full text-left text-white font-UberMoveBold text-3xl md:text-4xl md:w-2/3">
           Uma plataforma global baseada na maior rede de viagens por aplicativos
           do mundo{" "}
         </h2>
-        <div className="flex flex-col gap-10 text-white mt-5">
+        <div className="flex flex-col gap-10 text-white mt-5 md:flex-row">
           <div className="div-badge">
             <img src={BadgeMoney} width={48} alt="Icone de dinheiro" />
             <div className="div-badge-text">
@@ -42,7 +42,7 @@ function SecondSection() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-10 text-white mt-5">
+        <div className="flex flex-col gap-10 text-white mt-5 md:flex-row">
           <div className="div-badge">
             <img src={BadgeStar} width={48} alt="Icone de dinheiro" />
             <div className="div-badge-text">

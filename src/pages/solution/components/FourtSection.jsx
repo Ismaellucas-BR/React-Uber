@@ -7,21 +7,33 @@ import IconYoutube from "../../../assets/svg/IconYoutube";
 
 function FourtSection() {
   return (
-    <section className="w-full">
-      <div className="div-classes-iniciais bg-gray-f3">
-        <div className="flex flex-col items-center justify-center">
-          <h2 className="font-UberMoveBold text-[1.75rem] text-center">
+    <section className="w-full bg-gray-f3">
+      <div className="div-classes-iniciais  pb-10">
+        <div className="flex flex-col items-center justify-center md:w-1/2">
+          <h2 className="font-UberMoveBold text-[1.75rem] text-center md:text-4xl">
             Mais de 170 mil empresas usam a nossa plataforma, incluindo a
             maioria das integrantes da lista Fortune 500. Faça como elas!
           </h2>
         </div>
-        <div className="flex flex-col gap-3">
-          <img src={LogoZoom} alt="Logo da Zoom" />
-          <img src={LogoCoca} alt="Logo da Zoom" />
-          <img src={LogoSamsung} alt="Logo da Zoom" />
+        <div className="flex flex-col gap-3 md:flex-row">
+          <img
+            className="md:w-[22.5rem] md:h-[12.75rem]"
+            src={LogoZoom}
+            alt="Logo da Zoom"
+          />
+          <img
+            className="md:w-[22.5rem] md:h-[12.75rem]"
+            src={LogoCoca}
+            alt="Logo da Zoom"
+          />
+          <img
+            className="md:w-[22.5rem] md:h-[12.75rem]"
+            src={LogoSamsung}
+            alt="Logo da Zoom"
+          />
         </div>
-        <div className="flex flex-col gap-5">
-          <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-5 md:flex-row md:gap-28 ">
+          <div className="flex flex-col gap-3 md:w-1/3 md:justify-center">
             <h2
               className=" font-UberMoveMedium
              text-lg text-gray-33"
@@ -39,7 +51,7 @@ function FourtSection() {
           </div>
           <div
             style={{ backgroundImage: `url(${BgVideo})` }}
-            className="flex justify-center items-center h-56 bg-cover bg-center bg-no-repeat"
+            className="flex justify-center items-center h-56 bg-cover bg-center bg-no-repeat md:w-2/3 md:h-[23.25rem]"
           >
             <IconYoutube />
           </div>

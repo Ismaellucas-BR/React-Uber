@@ -122,7 +122,7 @@
     @apply flex flex-col gap-3;
   }
   .div-classes-iniciais {
-    @apply flex flex-col items-center justify-between w-full max-w-7xl  mx-auto  pt-10 px-5 gap-5 sm:pt-10 md:gap-5 lg:flex sm:pb-10;
+    @apply flex flex-col items-center justify-between w-full max-w-[80rem]  mx-auto  pt-10 px-5 gap-5 sm:pt-10 md:gap-5 lg:flex sm:pb-10;
   }
 }
 

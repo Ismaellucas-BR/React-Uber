@@ -17,7 +17,7 @@ function ThirdSection() {
             </a>
             <a
               className="link-underline text-black mt-4 border-b pb-1"
-              href="https://www.uber.com/br/pt-br/business/?uclick_id=bf765484-6082-4c24-863d-1244774412a7"
+              href="/solutions"
             >
               Confira nossas soluções
             </a>
