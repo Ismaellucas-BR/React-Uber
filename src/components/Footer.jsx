@@ -1,7 +1,9 @@
 import React from "react";
 import FooterMenu from "./footerMenu";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+  const { t, i18n } = useTranslation();
   return (
     <section className="bg-black px-6 py-14 lg:p-16">
       <div className="flex flex-col gap-10 max-w-7xl mx-auto lg:gap-20">
@@ -9,7 +11,7 @@ function Footer() {
           <div className="flex flex-col gap-8 w-full pt-5 lg:w-1/2">
             <span className="font-txt-regular text-white text-2xl">Uber</span>
             <span className="font-txt-regular text-white text-base">
-              Acesse a Central de Ajuda
+              {t("footer.Visit-Help-Center")}
             </span>
           </div>
           <div className=" mt-8 w-full font-txt-regular md:pr-80 lg:w-1/2 lg:pl-60 lg:mt-0 lg:pr-0">
@@ -22,49 +24,45 @@ function Footer() {
         </div>
         <div className="flex flex-col gap-10 w-full max-w-7xl mx-auto lg:flex-row lg:gap-0">
           <FooterMenu
-            title="Empresa"
+            title={t("footer.company.title")}
             linkUm="/quem_somos"
             itemUm="Quem somos"
             linkDois="https://www.uber.com/br/pt-br/about/uber-offerings/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
-            itemDois="O que oferecemos"
+            itemDois={t("footer.company.items.whatWeOffer")}
             linkTres="https://www.uber.com/pt-BR/newsroom/"
-            itemTres="Newsroom"
+            itemTres={t("footer.company.items.newsroom")}
             linkQuatro="https://investor.uber.com/home/default.aspx"
-            itemQuatro="Investidores"
+            itemQuatro={t("footer.company.items.investors")}
             linkCinco="https://www.uber.com/en-BR/blog/recife/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
             itemCinco="Blog"
             linkSeis="https://www.uber.com/br/pt-br/careers/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
-            itemSeis="Carreiras"
-            linkSete="https://www.uber.com/en-BR/blog/recife/engineering/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
-            itemSete="AI"
-            linkOito="https://www.uber.com/br/pt-br/gift-cards/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
-            itemOito="Gift cards"
+            itemSeis={t("footer.company.items.careers")}
           />
           <FooterMenu
-            title="Produtos"
+            title={t("footer.products.title")}
             linkUm="https://www.uber.com/br/pt-br/ride/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
-            itemUm="Viajar"
+            itemUm={t("footer.products.items.travel")}
             linkDois="/dirigir"
-            itemDois="Dirigir"
+            itemDois={t("footer.products.items.drive")}
             linkTres="https://www.uber.com/br/pt-br/deliver/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
-            itemTres="Fazer entregas"
+            itemTres={t("footer.products.items.deliver")}
             linkQuatro="https://www.ubereats.com/br?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff&marketing_vistor_id=13e8c7ec-0f3f-4bf4-85e6-ee7c3b2695bb&_gl=1*8xfbo4*_ga*MTg2NTAxMDUxMi4xNzA5NTc1NDQ2*_ga_XTGQLY6KPT*MTcxNjY0NDI1NC40My4xLjE3MTY2NDg0MzkuMC4wLjA."
-            itemQuatro="Faça um pedido"
+            itemQuatro={t("footer.products.items.order")}
             linkCinco="https://www.uber.com/br/pt-br/business/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
-            itemCinco="Uber para Empresas"
+            itemCinco={t("footer.products.items.business")}
             linkSeis="https://www.uberfreight.com/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff&_gl=1*eoswez*_ga*MTg2NTAxMDUxMi4xNzA5NTc1NDQ2*_ga_XTGQLY6KPT*MTcxNjY0NDI1NC40My4xLjE3MTY2NDg0MzkuMC4wLjA."
-            itemSeis="Uber Freight"
+            itemSeis={t("footer.products.items.freight")}
             showlink7="true"
             showlink8="true"
           />
           <FooterMenu
-            title="Cidadania global"
+            title={t("footer.globalCitizenship.title")}
             linkUm="https://www.uber.com/br/pt-br/safety/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
-            itemUm="Segurança"
+            itemUm={t("footer.globalCitizenship.items.safety")}
             linkDois="https://www.uber.com/br/pt-br/about/diversity/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
-            itemDois="Diversidade e inclusão"
+            itemDois={t("footer.globalCitizenship.items.diversity")}
             linkTres="https://www.uber.com/br/pt-br/about/sustainability/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
-            itemTres="Sustentabilidade"
+            itemTres={t("footer.globalCitizenship.items.sustainability")}
             showlink4="true"
             showlink5="true"
             showlink6="true"
@@ -72,13 +70,13 @@ function Footer() {
             showlink8="true"
           />
           <FooterMenu
-            title="Viaje"
+            title={t("footer.travel.title")}
             linkUm="https://auth.uber.com/v2/?breeze_init_req_id=97f70d91-a219-411a-96a7-4e5cc060ce4c&breeze_local_zone=dca50&next_url=https%3A%2F%2Fm.uber.com%2Flogin-redirect%2F%3F_fallback_redirect%3Dhttp%253A%252F%252Fm.uber.com%252Freserve%26mvid%3D13e8c7ec-0f3f-4bf4-85e6-ee7c3b2695bb%26previousPath%3D%252Freserve%26referrer%3Dsingular_click_id%253Ddcd529d0-a4b2-4f0d-8b78-ea68a6d60206%26sl_id%3Do42y%26uclick_id%3De960c8d0-b70d-419b-ab6f-2355b16b9bff&state=pBkKhlmKyM_1qs6Tk9leoWI0GsrC0W9i85-0vaa07E0%3D"
-            itemUm="Reservar"
+            itemUm={t("footer.travel.items.book")}
             linkDois="https://www.uber.com/global/pt-br/airports/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
-            itemDois="Aeroportos"
+            itemDois={t("footer.travel.items.airports")}
             linkTres="https://www.uber.com/global/pt-br/cities/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
-            itemTres="Cidades"
+            itemTres={t("footer.travel.items.cities")}
             showlink4="true"
             showlink5="true"
             showlink6="true"
@@ -156,7 +154,7 @@ function Footer() {
           </div>
           <div className="w-1/2"></div>
         </div>
-        <div class="w-full max-w-7xl mx-auto">
+        <div className="w-full max-w-7xl mx-auto">
           <div className="flex gap-5 w-full lg:w-1/2">
             <a
               target="_blank"
@@ -181,9 +179,15 @@ function Footer() {
           </div>
           <div className="w-1/2"></div>
         </div>
-        <div class="flex flex-col gap-20 w-full max-w-7xl mx-auto lg:flex-row lg:gap-0">
+        <div className="flex flex-col gap-20 w-full max-w-7xl mx-auto lg:flex-row lg:gap-0">
           <div className="flex gap-5 w-full font-txt-regular text-xs lg:w-1/2">
-            <span className="text-white">Developer Ismael Lucas</span>
+            <a
+              href="https://developerismaellucas.com"
+              target="_blank"
+              className="text-white"
+            >
+              Developer Ismael Lucas
+            </a>
             <span className="text-white">© 2024 Uber Technologies Inc.</span>
           </div>
           <div className="w-full lg:w-1/2">

@@ -1,0 +1,61 @@
+{
+  "header": {
+    "drive": "Dirigir",
+    "about": "Sobre"
+  },
+  "first-title": "Vá a qualquer lugar com o app da Uber",
+  "first-subtitle": "Solicite uma viagem, entre no carro e relaxe.",
+  "second-title": "Dirija quando quiser e ganhe de acordo com suas necessidades",
+  "second-subtitle": "Ganhe dinheiro com entregas e viagens no horário que você definir. Você pode usar seu próprio carro ou escolher um carro alugado por meio do app da Uber.",
+  "second-btn": "Começar",
+  "third-title": "A plataforma Uber que você conhece, reinventada para empresas",
+  "third-subtitle": "A Uber para Empresas é uma plataforma global de gestão de viagens, refeições e entregas locais para empresas de todos os portes",
+  "third-btn": "Começar",
+  "third-btn2": "Confira nossas soluções",
+  "Title-section-QRCode": "É mais fácil pelo app",
+  "Title-QRCode": "Baixe o app da Uber",
+  "SubTitle-QRCode": "Leia o código QR para baixar o app",
+  "Title-QRCode2": "Baixe o app de parceiro",
+  "SubTitle-QRCode2": "Leia o código QR para baixar o app",
+  "footer": {
+    "Visit-Help-Center": "Acesse a Central de Ajuda",
+    "company": {
+      "title": "Empresa",
+      "items": {
+        "aboutUs": "Quem somos",
+        "whatWeOffer": "O que nos oferecemos",
+        "newsroom": "Newsroom",
+        "investors": "Investidores",
+        "blog": "Blog",
+        "careers": "Carreiras"
+      }
+    },
+    "products": {
+      "title": "Produtos",
+      "items": {
+        "travel": "Viajar",
+        "drive": "Dirigir",
+        "deliver": "Fazer entregas",
+        "order": "Faça um pedido",
+        "business": "Uber para Empresas",
+        "freight": "Uber Freight"
+      }
+    },
+    "globalCitizenship": {
+      "title": "Cidadania global",
+      "items": {
+        "safety": "Segurança",
+        "diversity": "Diversidade e inclusão",
+        "sustainability": "Sustentabilidade"
+      }
+    },
+    "travel": {
+      "title": "Viaje",
+      "items": {
+        "book": "Reservar",
+        "airports": "Aeroportos",
+        "cities": "Cidades"
+      }
+    }
+  }
+}

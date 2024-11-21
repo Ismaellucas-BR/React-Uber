@@ -7,8 +7,16 @@ import {
   SheetTrigger,
 } from "./ui/sheet";
 import { List } from "@phosphor-icons/react";
+import { useTranslation } from "react-i18next"; // Importando o hook useTranslation
 
 function Menu() {
+  const { i18n } = useTranslation(); // Obtendo a instância do i18next
+
+  // Função para mudar o idioma
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng); // Troca de idioma
+  };
+
   return (
     <Sheet>
       <SheetTrigger>
@@ -16,10 +24,21 @@ function Menu() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle>Are you absolutely sure?</SheetTitle>
+          <SheetTitle>{i18n.t("menu.title")}</SheetTitle>{" "}
+          {/* Usando a tradução aqui */}
           <SheetDescription>
-            This action cannot be undone. This will permanently delete your
-            account and remove your data from our servers.
+            <button
+              className="bg-white text-red-500"
+              onClick={() => changeLanguage("en")}
+            >
+              English
+            </button>
+            <button
+              className="bg-white text-red-500"
+              onClick={() => changeLanguage("pt")}
+            >
+              Português
+            </button>
           </SheetDescription>
         </SheetHeader>
       </SheetContent>

@@ -1,0 +1,61 @@
+{
+  "header": {
+    "drive": "Ride",
+    "about": "About"
+  },
+  "first-title": "Go anywhere with the Uber app",
+  "first-subtitle": "Request a ride, get in the car and relax.",
+  "second-title": "Drive when you want and earn according to your needs",
+  "second-subtitle": "Earn money with deliveries and trips at the time you define. You can use your own car or choose a rental car through the Uber app.",
+  "second-btn": "Get started",
+  "third-title": "The Uber you know, reimagined for business",
+  "third-subtitle": "Uber for Business is a platform for managing global rides and meals, and local deliveries, for companies of any size.",
+  "third-btn": "Get started",
+  "third-btn2": "Check out our solutions",
+  "Title-section-QRCode": "Its easier in the apps",
+  "Title-QRCode": "Download the Uber app",
+  "SubTitle-QRCode": "Scan to download",
+  "Title-QRCode2": "Download the Driver app",
+  "SubTitle-QRCode2": "Scan to download",
+  "footer": {
+    "Visit-Help-Center": "Visit Help Center",
+    "company": {
+      "title": "Company",
+      "items": {
+        "aboutUs": "About Us",
+        "whatWeOffer": "What We Offer",
+        "newsroom": "Newsroom",
+        "investors": "Investors",
+        "blog": "Blog",
+        "careers": "Careers"
+      }
+    },
+    "products": {
+      "title": "Products",
+      "items": {
+        "travel": "Ride",
+        "drive": "Drive",
+        "deliver": "Deliver",
+        "order": "Order",
+        "business": "Business",
+        "freight": "Uber Freight"
+      }
+    },
+    "globalCitizenship": {
+      "title": "Global Citizenship",
+      "items": {
+        "safety": "Safety",
+        "diversity": "Diversity and Inclusion",
+        "sustainability": "Sustainability"
+      }
+    },
+    "travel": {
+      "title": "Travel",
+      "items": {
+        "book": "Book",
+        "airports": "Airports",
+        "cities": "Cities"
+      }
+    }
+  }
+}

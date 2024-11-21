@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next";
+
 function SecondSc() {
+  const { t, i18n } = useTranslation();
   return (
     <section className="bg-white flex flex-col-reverse items-center justify-between w-full max-w-7xl mx-auto pt-10 px-5  sm:pt-20 lg:flex lg:flex-row sm:pb-10">
       <div className="w-full left-side mt-5 pt-4  flex justify-end sm:mt-0   sm:pt-10 sm:justify-between lg:w-3/5">
@@ -13,17 +16,15 @@ function SecondSc() {
       </div>
       <div className="right-side w-full   lg:mt-10  flex-col sm:min-[500px]    lg:justify-center lg:w-2/3 lg:p-20">
         <h2 className="text-[36px] leading-9 md:text-[3.25rem] cta-text   sm:leading-tight ">
-          Dirija quando quiser e ganhe de acordo com suas necessidades
+          {t("second-title")}
         </h2>
-        <p className="text-black mt-4 sm:mt-6 font-UberMove font-normal">
-          Ganhe dinheiro com entregas e viagens no horário que você definir.
-          Você pode usar seu próprio carro ou escolher um carro alugado por meio
-          do app da Uber.
+        <p className="text-black mt-4 sm:mt-6 font-UberMoveNormal">
+          {t("second-subtitle")}
         </p>
 
         <div className="loginRedirect flex items-center mt-4 gap-5">
           <a className="btn-start mr-4" href="/dirigir">
-            Começar
+            {t("second-btn")}
           </a>
         </div>
       </div>

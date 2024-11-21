@@ -2,11 +2,15 @@ import RideIconApp from "../../../assets/svg/Rider-App-Icon_iOS.svg";
 import DriveIconApp from "../../../assets/svg/Driver-App-Icon_iOS.svg";
 import RideIconAppDesktop from "../../../assets/ride-app-desktop.webp";
 import DriveIconAppDesktop from "../../../assets/driver-app-desktop.webp";
+import { useTranslation } from "react-i18next";
 function FifthSection() {
+  const { t, i18n } = useTranslation();
   return (
     <section className="bg-slate-100 mt-10 px-5 pt-3 pb-10">
       <div className="content-icons lg:max-w-7xl lg:mx-auto lg:px-6">
-        <h3 className="font-uber text-3xl my-10">É mais fácil pelo app</h3>
+        <h3 className="font-uber text-3xl my-10">
+          {t("Title-section-QRCode")}
+        </h3>
 
         <div className="icon-box mob-tablet lg:hidden">
           <div className="ride-box flex justify-start items-center bg-white p-5 border-2 border-slate-200 w-full">
@@ -21,7 +25,7 @@ function FifthSection() {
                 />
 
                 <span className="ml-4 font-uber donwload-app text-2xl">
-                  Baixe o app da Uber
+                  {t("Title-QRCode")}
                 </span>
               </div>
               <svg
@@ -52,7 +56,7 @@ function FifthSection() {
                   height={200}
                 />
                 <span className="ml-4 font-uber donwload-app text-2xl">
-                  Baixe o app de parceiro
+                  {t("Title-QRCode2")}
                 </span>
               </div>
               <svg
@@ -86,11 +90,11 @@ function FifthSection() {
                     alt="Icone da uber com fundo preto e bordar levemente arredondadas"
                   />
                 </div>
-                <div className="text-content ml-4">
+                <div className=" flex flex-col text-content ml-4">
                   <span className=" font-uber donwload-app text-2xl">
-                    Baixe o app da Uber
+                    {t("Title-QRCode")}
                   </span>
-                  <p>Leia o código QR para baixar o app</p>
+                  {t("SubTitle-QRCode")}
                 </div>
               </div>
               <svg
@@ -122,11 +126,11 @@ function FifthSection() {
                     alt="Icone da uber com seta embaixo e  com fundo preto e bordar levemente arredondadas"
                   />
                 </div>
-                <div className="text-content ml-4">
+                <div className="flex flex-col text-content ml-4">
                   <span className=" font-uber donwload-app text-2xl">
-                    Baixe o app de parceiro
+                    {t("Title-QRCode2")}
                   </span>
-                  <p>Leia o código QR para baixar o app</p>
+                  {t("SubTitle-QRCode2")}
                 </div>
               </div>
               <svg

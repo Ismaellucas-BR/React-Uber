@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import DropdownIcon from "../icons/DropdownIcon";
 import IconUser from "../assets/icon_user.png";
 import Menu from "./Menu";
+import { useTranslation } from "react-i18next";
 function Header() {
+  const { t, i18n } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="w-full bg-black h-auto text-white flex items-center mx-auto flex-col lg:h-auto">
@@ -12,8 +14,8 @@ function Header() {
             <p className="font-UberMoveMedium text-2xl">Uber</p>
           </a>
           <nav className="hidden font-UberMoveMedium lg:flex text-white lg:ml-10 gap-5">
-            <a href="/dirigir">Dirigir</a>
-            <a href="/quem_somos">Sobre</a>
+            <a href="/dirigir">{t("header.drive")}</a>
+            <a href="/quem_somos">{t("header.about")}</a>
           </nav>
         </div>
         <div className="flex  items-end justify-between w-full">
