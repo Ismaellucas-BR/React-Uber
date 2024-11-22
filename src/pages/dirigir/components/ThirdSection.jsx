@@ -2,13 +2,15 @@ import DriverOverview from "../../../assets/Driveroverview.jpg";
 import CarFrontFilled from "../../../assets/car_front_filled.jpg";
 import CredCardFilled from "../../../assets/credit_card_filled_1.jpg";
 import Support from "../../../assets/support.jpg";
+import { useTranslation } from "react-i18next";
 function ThirdSectiondg() {
+  const { t, i18n } = useTranslation();
   return (
     <div className="w-full bg-white">
       <section className="first-section-black items-center justify-between block w-full max-w-7xl mx-auto py-10 px-5 bg-white sm:py-14 sm:flex sm:flex-col">
         <div className="left-side w-full   flex-col sm:ml-4 sm:h-auto">
           <h2 className="text-gray-900 text-2xl cta-text sm:mt-3 lg:text-4xl sm:leading-tight	">
-            Por que se tornar um motorista de aplicativo?
+            {t("Ride-page.Third-section.title")}
           </h2>
           <div className="flex justify-center lg:px-10 lg:mt-5">
             <img
@@ -33,13 +35,10 @@ function ThirdSectiondg() {
               />
             </div>
             <h4 className="font-UberMoveBold text-base">
-              Faça o seu próprio horário
+              {t("Ride-page.Third-section.icons-cards.card1.title")}
             </h4>
             <p className="text-[16px] font-UberMoveNormal">
-              Alguns empregos de motorista podem significar longos dias de
-              trabalho e horários rígidos. Se você se tornar um motorista
-              parceiro da Uber, você decide quando e com que frequência você
-              dirige.
+              {t("Ride-page.Third-section.icons-cards.card1.content")}
             </p>
           </div>
           <div className="w-full flex flex-col gap-2 my-10 lg:w-1/3 lg:my-0">
@@ -53,13 +52,10 @@ function ThirdSectiondg() {
               />
             </div>
             <h4 className="font-UberMoveBold text-base">
-              Ganhe dinheiro rapidamente
+              {t("Ride-page.Third-section.icons-cards.card2.title")}
             </h4>
             <p className="text-[16px] font-UberMoveNormal">
-              Quando você se torna um motorista parceiro do app da Uber, os seus
-              ganhos são transferidos automaticamente para sua conta bancária
-              todas as semanas ou, se solicitar uma Uber Conta, o dinheiro entra
-              na sua conta após o final da viagem.
+              {t("Ride-page.Third-section.icons-cards.card2.content")}
             </p>
           </div>
           <div className="w-full flex flex-col gap-2 lg:w-1/3">
@@ -73,12 +69,10 @@ function ThirdSectiondg() {
               />
             </div>
             <h4 className="font-UberMoveBold text-base">
-              Obtenha suporte constante
+              {t("Ride-page.Third-section.icons-cards.card3.title")}
             </h4>
             <p className="text-[16px] font-UberMoveNormal">
-              Se você tiver dúvidas, fale com a gente a qualquer momento online
-              ou pelo app. Pergunte sobre checagens de segurança, promoções
-              semanais, como receber pagamentos e muito mais.
+              {t("Ride-page.Third-section.icons-cards.card3.content")}
             </p>
           </div>
         </div>

@@ -26,7 +26,7 @@ function Footer() {
           <FooterMenu
             title={t("footer.company.title")}
             linkUm="/quem_somos"
-            itemUm="Quem somos"
+            itemUm={t("footer.company.items.aboutUs")}
             linkDois="https://www.uber.com/br/pt-br/about/uber-offerings/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
             itemDois={t("footer.company.items.whatWeOffer")}
             linkTres="https://www.uber.com/pt-BR/newsroom/"

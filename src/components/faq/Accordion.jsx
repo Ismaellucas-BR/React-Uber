@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 function Accondion({ title, content }) {
   const [accondionOpen, setAccondionOpen] = useState(false);
   return (

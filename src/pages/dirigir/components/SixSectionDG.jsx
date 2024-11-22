@@ -1,23 +1,19 @@
 import Gps from "../../../assets/GPS-Tracking.jpg";
 import Support24 from "../../../assets/24_7-Support.jpg";
 import Familly from "../../../assets/family.jpg";
+import { useTranslation } from "react-i18next";
 function SixSectionDG() {
+  const { t, i18n } = useTranslation();
   return (
     <div className="w-full h-auto">
       <section className="first-section-black items-center justify-between block w-full max-w-7xl mx-auto py-5 px-5 bg-white sm:pt-10 sm:flex sm:pb-10 md:flex-col">
-        <div className="left-side w-full   flex-col sm:ml-4 lg:h-auto  lg:w-full">
+        <div className="left-side w-full   flex-col sm:ml-4 lg:h-52  lg:w-full">
           <h2 className="text-black text-3xl cta-text lg:mt-10 sm:text-3xl sm:leading-tight font-UberMoveBold">
-            Segurança ao volante
+            {t("Ride-page.Six-section.title")}
           </h2>
           <p className="text-black mt-4 text-lg font-UberMoveNormal lg:pr-[500px]">
-            Buscamos incessantemente melhorar nossos padrões de qualidade, pois
-            a sua segurança é nossa prioridade.
+            {t("Ride-page.Six-section.subtitle")}
           </p>
-          <div className="loginRedirect flex items-center mt-4">
-            <p className="link-underline text-black text-base font-UberMoveNormal my-4 border-b pb-1 ">
-              Veja como funciona
-            </p>
-          </div>
         </div>
         <div className="lg:flex lg:mt-5">
           <div className="loginRedirect flex flex-col mt-4 pr-14 md:mt-10 md:w-full lg:mt-0">
@@ -30,15 +26,14 @@ function SixSectionDG() {
               />
             </div>
             <h4 className="font-UberMoveBold  text-lg mt-4 mb-2">
-              Proteção 24 horas por dia
+              {t("Ride-page.Six-section.icons-cards.card1.title")}
             </h4>
             <p className="text-base font-UberMoveNormal">
-              Bloqueamos viagens inseguras com a nossa tecnologia de
-              inteligência artificial.
+              {t("Ride-page.Six-section.icons-cards.card1.content")}
             </p>
             <div className=" inline-flex mt-6 mb-4">
               <p className="link-underline text-black font-UberMoveNormal border-b pb-1 text-base">
-                Confira as informações
+                {t("Ride-page.Six-section.icons-cards.card1.btn")}
               </p>
             </div>
           </div>
@@ -52,16 +47,14 @@ function SixSectionDG() {
               />
             </div>
             <h4 className="font-UberMoveBold mt-4 text-lg mb-2">
-              Ajuda quando você precisar
+              {t("Ride-page.Six-section.icons-cards.card2.title")}
             </h4>
             <p className="text-base font-UberMoveNormal">
-              O botão de emergência chama o 911. O app mostra a sua localização
-              e as informações da viagem para você poder compartilhá-los com
-              rapidez em casos de emergência.
+              {t("Ride-page.Six-section.icons-cards.card2.content")}
             </p>
             <div className=" inline-flex mt-6 mb-4">
               <p className="link-underline text-black font-UberMoveNormal border-b pb-1 text-base">
-                Veja como funciona
+                {t("Ride-page.Six-section.icons-cards.card2.btn")}
               </p>
             </div>
           </div>
@@ -75,15 +68,14 @@ function SixSectionDG() {
               />
             </div>
             <h4 className="font-UberMoveBold mt-4 text-lg mb-2">
-              Código da Comunidade Uber
+              {t("Ride-page.Six-section.icons-cards.card3.title")}
             </h4>
             <p className="text-base font-UberMoveNormal">
-              Nossos padrões ajudam a criar conexões seguras e interações
-              positivas com todos. Veja como nosso código se aplica a você.
+              {t("Ride-page.Six-section.icons-cards.card3.content")}
             </p>
             <div className=" inline-flex mt-6 mb-4">
               <p className="link-underline text-black font-UberMoveNormal border-b pb-1 text-base">
-                Veja como funciona
+                {t("Ride-page.Six-section.icons-cards.card3.btn")}
               </p>
             </div>
           </div>

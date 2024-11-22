@@ -17,6 +17,134 @@
   "SubTitle-QRCode": "Leia o código QR para baixar o app",
   "Title-QRCode2": "Baixe o app de parceiro",
   "SubTitle-QRCode2": "Leia o código QR para baixar o app",
+  "Ride-page": {
+    "First-section": {
+      "title": "Dirija quando quiser e ganhe de acordo com suas necessidades",
+      "subtitle": "Gere ganhos no horário que quiser."
+    },
+    "Second-section": {
+      "title": "Uma alternativa aos empregos de motoristas tradicionais",
+      "subtitle": "Dirigir com o app da Uber oferece uma oportunidade flexível de ganhos. É uma ótima alternativa aos trabalhos de motorista em tempo integral ou meio período, ou a um bico temporário ou sazonal. Ou talvez você já seja um motorista de aplicativos e queira aumentar sua renda ao se tornar um motorista parceiro da Uber.",
+      "subtitle2": "Os motoristas que usam o app da Uber vêm de todas as áreas e setores, e definem o próprio horário para que o trabalho se encaixe em suas vidas, e não o contrário.",
+      "subtitle3": "A Uber oferece uma alternativa aos tradicionais trabalhos de motorista de meio período em quase todas as cidades brasileiras. Estamos presentes nas principais capitais, bem como nas cidades menores em todo o país."
+    },
+    "Third-section": {
+      "title": "Por que se tornar um motorista de aplicativo?",
+      "icons-cards": {
+        "card1": {
+          "title": "Faça o seu próprio horário",
+          "content": "Alguns empregos de motorista podem significar longos dias de trabalho e horários rígidos. Se você se tornar um motorista parceiro da Uber, você decide quando e com que frequência você dirige."
+        },
+        "card2": {
+          "title": "Ganhe dinheiro rapidamente",
+          "content": "Quando você se torna um motorista parceiro do app da Uber, os seus ganhos são transferidos automaticamente para sua conta bancária todas as semanas ou, se solicitar uma Uber Conta, o dinheiro entra na sua conta após o final da viagem."
+        },
+        "card3": {
+          "title": "Obtenha suporte constante",
+          "content": "Se você tiver dúvidas, fale com a gente a qualquer momento online ou pelo app. Pergunte sobre checagens de segurança, promoções semanais, como receber pagamentos e muito mais."
+        }
+      }
+    },
+    "Fourth-section": {
+      "title": "Receba para dirigir",
+      "icons-cards": {
+        "card1": {
+          "title": "Ganhe dinheiro a qualquer hora, em qualquer lugar",
+          "content": "Quer você dirija apenas algumas horas de vez em quando ou use o app de parceiro com frequência, com o app da Uber é você que organiza as suas prioridades e agenda o seu tempo. Dirija em qualquer horário ou dia da semana. Os recursos do app de parceiro ajudarão você a encontrar usuários em tempo real, para que possa receber alertas sobre oportunidades de ganhos nas proximidades.",
+          "btn": "Veja como funciona"
+        },
+        "card2": {
+          "title": "Precisa de um carro?",
+          "content": "Não tem carro? Sem problemas. Se você quer se tornar um motorista parceiro pelo app da Uber, mas precisa de um veículo, confira a seleção dos nossos parceiros de veículos. Você pode encontrar um veículo para alugar por semana ou por mais tempo. Normalmente, esses veículos vêm com seguro, quilometragem ilimitada, manutenção básica e muito mais¹. As opções e os preços mais baixos disponíveis variam de acordo com a cidade e a locadora.",
+          "btn": "Consiga um carro"
+        }
+      }
+    },
+    "Six-section": {
+      "title": "Segurança ao volante",
+      "subtitle": "Buscamos incessantemente melhorar nossos padrões de qualidade, pois a sua segurança é nossa prioridade.",
+      "btn": "Veja como funciona",
+      "icons-cards": {
+        "card1": {
+          "title": "Proteção 24 horas por dia",
+          "content": "Bloqueamos viagens inseguras com a nossa tecnologia de inteligência artificial.",
+          "btn": "Confira as informações"
+        },
+        "card2": {
+          "title": "Ajuda quando você precisar",
+          "content": "O botão de emergência chama o 911. O app mostra a sua localização e as informações da viagem para você poder compartilhá-los com rapidez em casos de emergência",
+          "btn": "Veja como funciona"
+        },
+        "card3": {
+          "title": "Código da Comunidade Uber",
+          "content": "Nossos padrões ajudam a criar conexões seguras e interações positivas com todos. Veja como nosso código se aplica a você.",
+          "btn": "Veja como funciona"
+        }
+      }
+    },
+    "Seventh-section": {
+      "title": "O app de parceiro",
+      "subtitle": "Confiável e fácil de usar, o app foi desenvolvido para os motoristas parceiros. Ele mostra tudo o que você precisa saber para se tornar um motorista parceiro da Uber."
+    },
+    "AppParceiro-section": {
+      "title": "O app de parceiro",
+      "subtitle": "Confiável e fácil de usar, o app foi desenvolvido para os motoristas parceiros. Ele mostra tudo o que você precisa saber para se tornar um motorista parceiro da Uber."
+    },
+    "Faq-section": {
+      "title": "Perguntas frequentes"
+    },
+
+    "FAQ-Component": {
+      "item1": {
+        "title": "Como é dirigir pelo app da Uber comparado a outros empregos de motorista?",
+        "content": "Diferentes empregos de motorista oferecem diferentes oportunidades. Alguns têm horários definidos e rígidos. Com o app da Uber, você pode definir seu próprio horário. Tudo depende do que você deseja: se quer um emprego tradicional de motorista em tempo integral ou meio período, ou se prefere a flexibilidade para trabalhar quando quiser."
+      },
+      "item2": {
+        "title": "Posso dirigir pelo app da Uber e também dirigir um táxi?",
+        "content": "Sim. Você pode continuar a dirigir um táxi, ou fazer outras atividades relacionadas, e ser um motorista parceiro pelo app da Uber no seu tempo livre com seu veículo particular. Se você precisar obter a observação 'Exerce Atividade Remunerada' na sua CNH, consulte o Detran ou Poupatempo da sua cidade, agende sua consulta e faça os exames. Em alguns dias, sua carteira de habilitação estará pronta."
+      },
+      "item3": {
+        "title": "Com que frequência tenho que dirigir pelo app da Uber?",
+        "content": "Seus horários ficam a seu critério. Com o app da Uber, você ganha para dirigir quando quiser e gerencia seu próprio horário. Quer opte por dirigir ao longo da semana ou apenas quando precisar de dinheiro extra, o app da Uber é uma ótima forma de você ser o seu próprio patrão."
+      },
+      "item4": {
+        "title": "Precisa de mais motoristas?",
+        "content": "Sim. Durante a pandemia, muitos motoristas parceiros pararam de dirigir, não acreditavam que teriam viagens suficientes porque muitas pessoas estavam ficando em casa. Mas agora que as cidades começaram a reabrir, não há motoristas parceiros suficientes disponíveis para todos os usuários que estão solicitando viagens. Por isso, é um ótimo momento para se tornar um motorista parceiro da Uber."
+      },
+      "item5": {
+        "title": "Estou um pouco apreensivo para fazer minha primeira viagem. Como posso obter ajuda?",
+        "content": "Quando estiver com tudo pronto para se tornar um motorista parceiro pelo app da Uber, você poderá simular uma viagem no app. Antes de começar a dirigir, aprenda os conceitos básicos do app, passo a passo, com o nosso guia. Ele permitirá que você interaja com o app no modo de teste, de ações como aceitar uma solicitação de viagem até deixar seu passageiro no destino, e todos os passos que aconteçam durante o trajeto."
+      },
+      "item6": {
+        "title": "O que meus usuários esperam que eu faça?",
+        "content": "Como motorista parceiro de viagens pelo app da Uber, você terá muitos recursos para ajudar você a entender como usar o app. O app já faz grande parte do trabalho ao fornecer informações importantes aos usuários. Quando você se tornar um motorista parceiro pelo app da Uber, você também terá informações sobre onde se encontrar com os usuários, como ligar ou enviar mensagens para eles, se necessário, e dicas sobre como se dirigir a eles. (Por exemplo, os motoristas parceiros costumam receber os seus passageiros pelo nome do usuário para confirmar se é a pessoa certa.)"
+      },
+      "item7": {
+        "title": "Depois de fazer uma viagem, como posso saber quanto vou receber?",
+        "content": "Ser pago para dirigir é uma grande parte da razão pela qual você procurou uma alternativa a um emprego de motorista em tempo inteiro ou meio-período e decidiu usar o app da Uber. Por isso, facilitamos o máximo possível o acompanhamento dos ganhos vindo dos usuários. Quer você faça viagens ou entregas, o app oferece ferramentas úteis. Um valor monetário na parte superior da tela mostrará seus ganhos. Procure recursos no aplicativo para obter mais informações sobre como ver seu total e outros detalhes em tempo real."
+      },
+      "item8": {
+        "title": "Preciso comprar meu próprio seguro?",
+        "content": "O app da Uber mantém um seguro específico para motoristas de aplicativos em seu nome enquanto você dirige pela nossa plataforma. Quando você não estiver dirigindo pelo app da Uber, use seu próprio seguro de automóvel pessoal. Muitas seguradoras de automóveis pessoais oferecem seguros para viagens por aplicativos que incluem cobertura adicional para motoristas de aplicativo, mas você não precisa tê-lo para se cadastrar para dirigir pelo o app da Uber. Entre em contato com sua companhia de seguros para mais informações. Observação: a Uber não tem cobertura de seguro para automóveis de motoristas parceiros assegurados comercialmente."
+      },
+      "item9": {
+        "title": "A plataforma da Uber é segura?",
+        "content": "Segurança é a principal prioridade para a Uber. A empresa está permanentemente investindo em novos recursos para fazer a plataforma cada vez mais segura e diminuir os riscos para todos. Para saber mais sobre os recursos de segurança do app, como gravação de áudio, opção de não realizar viagens em dinheiro, tecnologia para bloquear viagens consideradas potencialmente mais arriscadas e verificação dos usuários, acesse o link abaixo."
+      },
+      "item10": {
+        "title": "Estou à procura de um emprego de motorista em tempo integral ou meio período perto de mim. Se optar por usar o app da Uber, como posso saber se o app está disponível na minha cidade?",
+        "content": "A Uber está disponível em mais de 10 mil cidades em todo o mundo. Toque abaixo para ver se a sua é uma delas."
+      },
+      "item11": {
+        "title": "Quais são os requisitos para dirigir pelo app da Uber?",
+        "content": "Você deve ter acesso a um veículo elegível e enviar os documentos necessários, inclusive uma carteira de habilitação válida. Os motoristas também devem passar por uma checagem de segurança e ter pelo menos um ano de experiência com carteira de habilitação."
+      },
+      "item12": {
+        "title": "Preciso ter meu próprio carro?",
+        "content": "Se você quer se tornar um motorista parceiro pelo app da Uber, mas precisa de um carro, você pode conseguir um por meio de um dos nossos parceiros de veículos. As opções de veículos dependem da cidade."
+      }
+    }
+  },
   "footer": {
     "Visit-Help-Center": "Acesse a Central de Ajuda",
     "company": {

@@ -1,6 +1,6 @@
 {
   "header": {
-    "drive": "Ride",
+    "drive": "Drive",
     "about": "About"
   },
   "first-title": "Go anywhere with the Uber app",
@@ -17,6 +17,132 @@
   "SubTitle-QRCode": "Scan to download",
   "Title-QRCode2": "Download the Driver app",
   "SubTitle-QRCode2": "Scan to download",
+  "Ride-page": {
+    "First-section": {
+      "title": "Drive when you want, make what you need",
+      "subtitle": "Earn on your own schedule."
+    },
+    "Second-section": {
+      "title": "An alternative to traditional driving jobs",
+      "subtitle": "Driving with Uber offers a flexible earning opportunity. It’s a great alternative to full-time driver jobs, part-time driver jobs, or other part-time gigs, temp jobs, or seasonal employment. Or maybe you’re already a rideshare driver and want to supplement your income by becoming a driver using the Uber platform.",
+      "subtitle2": "Drivers who use Uber come from all backgrounds and industries, setting their own schedule to make work fit into their lives, not the other way around.",
+      "subtitle3": "Uber offers an alternative to traditional part-time driver jobs in almost all Brazilian cities. We have a presence in major capitals as well smaller cities across the country."
+    },
+    "Third-section": {
+      "title": "Why become a rideshare driver?",
+      "icons-cards": {
+        "card1": {
+          "title": "Set your own hours",
+          "content": "Some driving opportunities can mean long hours and rigid schedules. If you become a driver using Uber, you decide when and how often you drive."
+        },
+        "card2": {
+          "title": "Get paid fast",
+          "content": "When you get paid to drive using Uber, your earnings automatically get transferred to your bank account every week or if you request your Uber Conta, the money enters in your account after the end of the trip."
+        },
+        "card3": {
+          "title": "Get support at every turn",
+          "content": "If you have questions, you can reach us anytime online or in the app. Ask about background checks, weekly promotions, how to get paid, and much more."
+        }
+      }
+    },
+    "Fourth-section": {
+      "title": "Get paid to drive",
+      "icons-cards": {
+        "card1": {
+          "title": "Earn anytime, anywhere",
+          "content": "Whether you want to drive for just a few hours every once in a while or you’re a more frequent user of Uber’s Driver app, with Uber you can fit driving around what matters most to you. Drive at any time and on any day of the week. Features in the Driver app will help you find riders in real time, so you can be alerted to earning opportunities nearby.",
+          "btn": "Learn more"
+        },
+        "card2": {
+          "title": "Need a car to make money?",
+          "content": "No car? No problem. If you want to become a driver using Uber but need a vehicle, check out the selection from our vehicle partners. You can find an affordable car by the hour, week, or longer. These vehicles come with insurance, unlimited mileage, basic maintenance, and more¹. Options and lowest available rates vary by city.",
+          "btn": "Get a car"
+        }
+      }
+    },
+    "Six-section": {
+      "title": "Safety on the road",
+      "subtitle": "Your safety drives us to continuously raise the bar.",
+      "icons-cards": {
+        "card1": {
+          "title": "Technology to keep you safe",
+          "content": "We block unsafe trips with our artificial intelligence technology.",
+          "btn": "Get details"
+        },
+        "card2": {
+          "title": "Help if you need it",
+          "content": "The Emergency Button calls 911. The app displays your trip details so you can quickly share them with authorities.",
+          "btn": "Learn more"
+        },
+        "card3": {
+          "title": "Community Guidelines",
+          "content": "Our standards help to create safe connections and positive interactions with everyone. Learn how our guidelines apply to you.",
+          "btn": "Learn more"
+        }
+      }
+    },
+    "Seventh-section": {
+      "title": "The Driver app",
+      "subtitle": "Easy to use and reliable, the app was built for drivers, with drivers. It shows you everything you need to know to become a driver with Uber."
+    },
+    "AppParceiro-section": {
+      "title": "The Driver app",
+      "subtitle": "Easy to use and reliable, the app was built for drivers, with drivers. It shows you everything you need to know to become a driver with Uber."
+    },
+    "Faq-section": {
+      "title": "Frequently asked questions"
+    },
+    "FAQ-Component": {
+      "item1": {
+        "title": "How does driving with Uber compare with other driver jobs?",
+        "content": "Different driving jobs offer different opportunities. Some driving jobs have strict hours and rigid schedules. With Uber, you can set your own schedule. It all depends on whether you want a traditional full-time or part-time driver job, or you want the flexibility to work whenever you choose."
+      },
+      "item2": {
+        "title": "Can I drive with Uber and also drive a taxi?",
+        "content": "Yes. You can keep driving a taxi or doing other driver jobs and get paid to drive using Uber in your spare time with your personal vehicle.If you need to obtain the 'Exerts Remunerated Activity' note on your driver's license, simply consult the Detran or Poupatempo in your city,schedule your appointment and take the exams. In a few days, your driver's license will be ready."
+      },
+      "item3": {
+        "title": "How often do I have to drive with Uber?",
+        "content": "Your schedule is up to you. With Uber, you can get paid to drive when you want and manage your own hours. Whether you choose to drive throughout the week or just when you need extra money, Uber is a great way to be your own boss."
+      },
+      "item4": {
+        "title": "Are more drivers needed?",
+        "content": "Yes. During the pandemic, many drivers stopped driving—they couldn’t count on getting enough trips because so many people were staying home. As cities begin to reopen, there aren’t enough drivers available for all the riders who are requesting trips. That makes it a great time to become a driver with Uber."
+      },
+      "item5": {
+        "title": "I’m a little nervous about taking my first trip. How can I get help?",
+        "content": "When you’re ready to become a driver with Uber, you’ll be able to take a simulated trip in the app. Before you start driving, you can learn the app basics with our step-by-step guide. It will let you interact with the app in test mode, from accepting a trip request to dropping off your rider, and every step in between."
+      },
+      "item6": {
+        "title": "What will my riders expect me to do?",
+        "content": "As a rideshare driver using Uber, you’ll have plenty of resources to help you understand how to use the app. The app will do a lot of work for providing riders important information. When you become a driver with Uber, you’ll also have resources about where to meet riders, how to call or message them if necessary, and tips for how to greet them. (For instance, drivers often greet riders by the rider’s name to avoid picking up the wrong person.)"
+      },
+      "item7": {
+        "title": "After I’ve taken a trip, how can I find out how much I’ll get paid?",
+        "content": "Getting paid to drive is a big part of the reason you looked for an alternative to a full-time or part-time driving job and decided to use Uber. So we make it as easy as possible to track your earnings from riders. Whether you’re driving or delivering, the app offers helpful tools. A monetary amount at the top of your screen will show your earnings. Look for resources in the app to give you more information about seeing your real-time totals and details."
+      },
+      "item8": {
+        "title": "Do I need to buy my own insurance?",
+        "content": "Uber maintains auto insurance designed for rideshare drivers on your behalf when you’re driving on our platform. When you’re not driving with Uber, you would use your own personal auto insurance. Many personal auto insurers offer rideshare insurance endorsements that include additional coverage for rideshare drivers, but this is not required for you to sign up to drive with Uber. Contact your insurance company for details. Note: Uber does not maintain primary auto insurance coverage on behalf of commercially insured drivers."
+      },
+      "item9": {
+        "title": "Is the Uber platform safe?",
+        "content": "Your safety matters to us. Uber has a global Safety team dedicated to doing our part to help prevent incidents. Learn more about the safety features in the app, as well as audio recording, cash opt out, technology to block risky trips, and verification of all users, by visiting the link below."
+      },
+      "item10": {
+        "title": "I’m looking for full-time or part-time driver jobs near me. If I choose to use Uber instead, how do I know if the app is available in my city?",
+        "content": "Uber is available in more than 10,000 cities worldwide. Tap below to see if yours is one of them."
+      },
+      "item11": {
+        "title": "What are the requirements to drive with Uber?",
+        "content": "When you become a driver with Uber, you must meet the minimum age to drive in your city, have an eligible mode of transportation, and submit required documents, including a valid driver’s license. Drivers must also pass a background screening and have at least one year of licensed driving experience."
+      },
+      "item12": {
+        "title": "Do I need my own car?",
+        "content": "If you want to become a driver with Uber but need a car, you can get a car from one of our vehicle partners. Please note that vehicle options may vary by city."
+      }
+    }
+  },
   "footer": {
     "Visit-Help-Center": "Visit Help Center",
     "company": {
