@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-function Accondion({ title, content }) {
+function Accondion({
+  title,
+  content,
+  content2,
+  content3,
+  showContent2,
+  showContent3,
+}) {
   const [accondionOpen, setAccondionOpen] = useState(false);
   return (
     <div className="pt-6 pb-2 w-full border-b  border-gray-400">
@@ -46,6 +53,26 @@ function Accondion({ title, content }) {
           <span className="font-UberMoveNormal text-base text-black">
             {content}
           </span>
+          {showContent2 && (
+            <>
+              <br />
+              <br />
+              <span className="font-UberMoveNormal text-base text-black">
+                {content2}
+              </span>
+              <br />
+              <br />
+            </>
+          )}
+          {showContent3 && (
+            <>
+              <span className="font-UberMoveNormal text-base text-black">
+                {content3}
+                <br />
+                <br />
+              </span>
+            </>
+          )}
         </div>
       </div>
     </div>

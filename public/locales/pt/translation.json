@@ -145,6 +145,71 @@
       }
     }
   },
+  "AboutUs": {
+    "title": "Quem somos",
+    "h2-number1": "Trabalhamos para melhorar a mobilidade das pessoas em todo o mundo",
+    "span-number1": "Mobilizamos o mundo. É nossa força vital. Corre por nossas veias. É o que nos tira da cama todas as manhãs. Isso nos leva a reimaginar constantemente como podemos nos mover melhor. Para você. Por todos os destinos que te esperam. Por tudo o que você quer alcançar. Para todas as suas formas de ganhar dinheiro. No mundo todo. Em tempo real. Na incrível velocidade do agora.",
+    "Accondion": {
+      "title": "Leia a declaração completa sobre a nossa missão",
+      "span": "Somos a Uber. Fazemos acontecer. Somos incansáveis na nossa missão de ajudar as pessoas a ir a qualquer lugar, conseguir o que quiserem e ganhar dinheiro do jeito delas. Mobilizamos o mundo. É nossa força vital. Corre por nossas veias. É o que nos tira da cama todas as manhãs. Isso nos leva a reimaginar constantemente como podemos nos mover melhor. Para você. Por todos os destinos que esperam você. Por tudo o que você quer alcançar. Para todas as formas de ganhar dinheiro. No mundo todo. Em tempo real. Na incrível velocidade do agora.",
+      "span2": "Somos uma empresa de tecnologia que faz a ponte entre o mundo físico e o digital, para que o movimento aconteça com o simples toque de um botão. Porque acreditamos em um mundo onde a mobilidade deve ser acessível. Para você poder se mover e ganhar dinheiro com segurança. De uma forma que seja sustentável para nosso planeta. E, independentemente do seu gênero, raça, religião, habilidade ou orientação sexual, defendemos seu direito de se movimentar e ganhar dinheiro livremente e sem medo. Claro, nem sempre acertamos. Mas não temos medo do fracasso, porque ele nos torna melhores, mais sábios e mais fortes. E isso nos torna ainda mais comprometidos em agir corretamente em relação aos nossos usuários, às cidades, às comunidades regionais e ao nosso grupo incrivelmente diversificado de parceiros internacionais.",
+      "span3": "A ideia da Uber nasceu em uma noite de neve em Paris em 2008 e, desde então, nosso DNA de reimaginação e reinvenção se mantém. Crescemos e nos tornamos uma plataforma global que oferece a possibilidade de ganhos flexíveis e a mobilidade de pessoas e coisas de maneiras cada vez mais amplas. Começamos com as viagens de carro pelo app e depois expandimos para incluir serviços de duas rodas e até chegarmos a entregar mercadorias com caminhões articulados. De refeições a itens do dia a dia, medicamentos prescritos e praticamente tudo o que você precisa a qualquer momento para ganhar dinheiro do seu jeito. Desde a checagem de segurança de motoristas parceiros até a verificação em tempo real, a tranquilidade dos usuários é a nossa prioridade de todos os dias. Na Uber, a busca pela reimaginação nunca termina, nunca para e está sempre no início."
+    },
+    "letter-section": {
+      "title": "Uma carta do nosso CEO",
+      "subtitle": "Conheça o compromisso da Uber em disponibilizar a tecnologia que pode ajudar os usuários da nossa plataforma global a fazer a transição para a mobilidade sustentável.",
+      "btn": "Leia a carta de Dara"
+    },
+    "blog-sections": {
+      "first-group": {
+        "item1": {
+          "title": "Sustentabilidade",
+          "subtitle": "A Uber está comprometida em se tornar uma plataforma totalmente elétrica e sem emissões de carbono até 2040. O plano é que todas as viagens sejam feitas em veículos leves (micromobilidade), sem emissão de poluentes ou por transporte público. Como a maior plataforma de mobilidade no mundo, é nossa responsabilidade enfrentar de maneira mais enfática o desafio das mudanças climáticas. Faremos isso ao oferecer aos usuários mais formas de viajar de modo sustentável, ajudar motoristas parceiros na adaptação a veículos elétricos, priorizar a transparência, além de fazer parcerias com ONGs e o setor privado para agilizar a transição para o uso de energias limpas e justas."
+        },
+        "item2": {
+          "title": "Viagens e muito mais",
+          "subtitle": "Além de oferecer aos usuários uma melhor mobilidade, possibilitamos a entrega de pedidos de forma ágil e econômica, expandindo o acesso à assistência médica, criando novas soluções para o transporte de cargas e permitindo que as empresas simplifiquem as viagens dos seus colaboradores. Além disso, ajudamos sempre os motoristas e entregadores parceiros a ganharem dinheiro."
+        },
+        "item3": {
+          "title": "Sua tranquilidade é nossa prioridade",
+          "subtitle": "A tranquilidade dos usuários e motoristas parceiros é essencial. Estamos comprometidos em fazer a nossa parte, e a tecnologia é uma peça fundamental dessa estratégia. Por meio de parcerias com organizações e especialistas em segurança, estamos desenvolvendo novas tecnologias que contribuem para um mundo mais tranquilo e com maior mobilidade para as pessoas."
+        }
+      },
+      "second-group": {
+        "title": "Informações da empresa",
+        "item1": {
+          "title": "Conheça nossa liderança",
+          "subtitle": "We’re building a culture within Uber that emphasizes doing the right thing, period, for riders, drivers, and employees. Find out more about the team that’s leading the way."
+        },
+        "item2": {
+          "title": "Getting diversity right",
+          "subtitle": "It’s our goal to create a workplace that is inclusive and reflects the diversity of the cities we serve—where everyone can be their authentic self, and where that authenticity is celebrated as a strength. By creating an environment where people from every background can thrive, we’ll make Uber a better company—for our employees and our customers."
+        },
+        "item3": {
+          "title": "Acting with integrity",
+          "subtitle": "Uber's Ethics & Compliance Program Charter outlines our commitment to integrity at the highest levels within the company. Transparency is critical to an ethical culture; we achieve this through our Integrity Helpline and suite of scalable and effective compliance initiatives."
+        }
+      },
+      "third-group": {
+        "title": "Keep up with the latest",
+        "item1": {
+          "title": "Newsroom",
+          "subtitle": "Get announcements about partnerships, app updates, initiatives, and more near you and around the world."
+        },
+        "item2": {
+          "title": "Blog",
+          "subtitle": "Find new places to explore and learn about Uber products, partnerships, and more."
+        },
+        "item3": {
+          "title": "Investor relations",
+          "subtitle": "Download financial reports, see next-quarter plans, and read about our corporate responsibility initiatives."
+        }
+      }
+    },
+    "last-section": {
+      "title": "Come reimagine with us"
+    }
+  },
   "footer": {
     "Visit-Help-Center": "Acesse a Central de Ajuda",
     "company": {

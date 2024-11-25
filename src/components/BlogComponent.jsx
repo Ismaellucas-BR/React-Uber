@@ -15,21 +15,24 @@ function BlogComponent(props) {
         {props.title}
       </h4>
       <p className="text-base font-UberMoveNormal">{props.content}</p>
-      <div className=" inline-flex ">
-        {props.show ? (
-          <a
-            target="_blank"
-            href={props.href}
-            className="link-underline text-black font-UberMoveNormal border-b pb-1"
-          >
-            {props.titleBtn}
-          </a>
-        ) : (
-          <p className="link-underline text-black font-UberMoveNormal border-b pb-1 my-10">
-            {props.titleBtn}
-          </p>
-        )}
-      </div>
+
+      {!props.showDiv && (
+        <div className="inline-flex">
+          {props.show ? (
+            <a
+              target="_blank"
+              href={props.href}
+              className="link-underline text-black font-UberMoveNormal border-b pb-1"
+            >
+              {props.titleBtn}
+            </a>
+          ) : (
+            <p className="link-underline text-black font-UberMoveNormal border-b pb-1 my-10">
+              {props.titleBtn}
+            </p>
+          )}
+        </div>
+      )}
     </div>
   );
 }
