@@ -31,11 +31,6 @@ function SixSectionDG() {
             <p className="text-base font-UberMoveNormal">
               {t("Ride-page.Six-section.icons-cards.card1.content")}
             </p>
-            <div className=" inline-flex mt-6 mb-4">
-              <p className="link-underline text-black font-UberMoveNormal border-b pb-1 text-base">
-                {t("Ride-page.Six-section.icons-cards.card1.btn")}
-              </p>
-            </div>
           </div>
           <div className="loginRedirect flex flex-col mt-4 pr-14 lg:mt-0">
             <div className="w-12">
@@ -52,11 +47,6 @@ function SixSectionDG() {
             <p className="text-base font-UberMoveNormal">
               {t("Ride-page.Six-section.icons-cards.card2.content")}
             </p>
-            <div className=" inline-flex mt-6 mb-4">
-              <p className="link-underline text-black font-UberMoveNormal border-b pb-1 text-base">
-                {t("Ride-page.Six-section.icons-cards.card2.btn")}
-              </p>
-            </div>
           </div>
           <div className="loginRedirect flex flex-col mt-4 pr-14 lg:mt-0">
             <div className="w-12">
@@ -73,11 +63,6 @@ function SixSectionDG() {
             <p className="text-base font-UberMoveNormal">
               {t("Ride-page.Six-section.icons-cards.card3.content")}
             </p>
-            <div className=" inline-flex mt-6 mb-4">
-              <p className="link-underline text-black font-UberMoveNormal border-b pb-1 text-base">
-                {t("Ride-page.Six-section.icons-cards.card3.btn")}
-              </p>
-            </div>
           </div>
         </div>
       </section>

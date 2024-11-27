@@ -15,6 +15,7 @@ function FourthSectiondg() {
               title={t("Ride-page.Fourth-section.icons-cards.card1.title")}
               content={t("Ride-page.Fourth-section.icons-cards.card1.content")}
               titleBtn={t("Ride-page.Fourth-section.icons-cards.card1.btn")}
+              showDiv="Não"
               divClass="md:w-1/2"
             />
             <BlogComponent
@@ -22,6 +23,7 @@ function FourthSectiondg() {
               title={t("Ride-page.Fourth-section.icons-cards.card2.title")}
               content={t("Ride-page.Fourth-section.icons-cards.card2.content")}
               titleBtn={t("Ride-page.Fourth-section.icons-cards.card2.btn")}
+              showDiv="Não"
               divClass="md:w-1/2"
             />
           </div>

@@ -210,6 +210,93 @@
       "title": "Come reimagine with us"
     }
   },
+  "getting-started": {
+    "title": "Duas maneiras de começar a usar a plataforma da Uber para Empresas",
+    "left-side": {
+      "title": "1. Uma abordagem de autoatendimento que ajuda você a começar em poucos minutos",
+      "itens-list": {
+        "item1": "Por tempo limitado, sua organização pode ganhar até R 1.000 em Créditos Uber para sua empresa ao gastar mais de R 10.000 nos primeiros 90 dias. Oferta sujeita a termos adicionais*",
+        "item2": "A maneira mais rápida para pequenas empresas se cadastrarem quando precisarem de viagens ocasionais",
+        "item3": "Lançamento simplificado de despesas e a possibilidade de pagar com um único cartão, sem taxas de serviço",
+        "item4": "Acesso a todos os recursos do painel do coordenador, inclusive integração com as principais plataformas de despesas e viagens, acesso à equipe de suporte ao usuário, métricas de sustentabilidade e Central de Ajuda"
+      }
+    },
+    "right-side": {
+      "title": "2. Uma experiência personalizada que se adapta às necessidades da sua empresa",
+      "itens-list": {
+        "item1": "Para empresas de todos os portes que preferem falar com um agente",
+        "item2": "Possibilidade de gerenciar várias formas de pagamento, além de lançamento simplificado de despesas, suporte para operações de faturamento e nenhuma taxa de serviço",
+        "item3": "Suporte exclusivo, além de acesso a todos os recursos do painel do coordenador, como métricas de sustentabilidade e integração com as principais plataformas de despesas e viagens."
+      }
+    }
+  },
+  "solutions": {
+    "first-section": {
+      "title": "O melhor do app da Uber para sua empresa",
+      "subtitle": "A Uber para Empresas dá à sua empresa mais controle, insights mais detalhados e recursos criados para usuários corporativos. Gerencie e acompanhe as viagens a trabalho, os programas de refeições e muito mais em um único painel.",
+      "btn": "Como começar a usar",
+      "btn2": "Confira nossas soluções"
+    },
+    "second-section": {
+      "title": "Uma plataforma global baseada na maior rede de viagens por aplicativos do mundo",
+      "item1": {
+        "title": "Reduza os custos em até 10% ao aumentar a conformidade com seu programa",
+        "subtitle": "Os usuários confirmaram que os custos de transporte terrestre e refeições foram reduzidos.¹ Gerencie as despesas, monitore o uso dos recursos e aproveite as melhores ferramentas de conformidade."
+      },
+      "item2": {
+        "title": "Alcance as metas de sustentabilidade com informações práticas",
+        "subtitle": "Acompanhe as emissões de CO₂ de cada viagem em um painel exclusivo da Uber para Empresas. Os dados disponíveis ajudarão você a gerenciar suas metas e usufruir de soluções sustentáveis, como o Uber Planet.²"
+      },
+      "item3": {
+        "title": "Ofereça uma experiência exclusiva para suas equipes",
+        "subtitle": "Além de lançamento de despesas simplificado e suporte prioritário, os colaboradores de cidades selecionadas têm acesso a opções de viagem como o Uber Business Comfort, que permitem que sua equipe aproveite viagens premium."
+      },
+      "item4": {
+        "title": "Priorize a proteção da sua empresa",
+        "subtitle": "A Uber para Empresas envia aos usuários corporativos notificações adicionais relacionadas a acidentes. Nosso Relatório de Segurança dos EUA mais recente mostra que 99,9% das viagens pelo app da Uber são concluídas sem nenhum incidente de segurança reportado."
+      }
+    },
+    "third-section": {
+      "title": "Como as empresas aproveitam a plataforma da Uber para Empresas",
+      "item1": {
+        "title": "Viagens a trabalho"
+      },
+      "item2": {
+        "title": "Viagens de cortesia"
+      }
+    },
+    "fourt-section": {
+      "title": "Comece a usar sem custos iniciais"
+    },
+    "fifth-section": {
+      "title": "Mais de 170 mil empresas usam a nossa plataforma, incluindo a maioria das integrantes da lista Fortune 500. Faça como elas!",
+      "content": "Apenas o salário e alguns benefícios não bastam mais. É preciso ouvir com atenção os anseios e necessidades dos colaboradores. Por isso, optamos por oferecer créditos Uber, para que eles possam solicitar viagens a trabalho ou lazer com toda tranquilidade. Os colaboradores podem usar os créditos como quiserem.",
+      "sub-content": "Fundador e Diretor Executivo da Parachute Media",
+      "bg-section-title": "9 de cada 10 usuários recomendam a Uber para Empresas³"
+    },
+    "Blog-section": {
+      "title": "Quer saber mais?",
+      "item1": {
+        "title": "Como reduzir a pegada de carbono das viagens a trabalho",
+        "btn": "Veja como funciona"
+      },
+      "item2": {
+        "title": "As vantagens e recompensas mais desejadas por seus colaboradores",
+        "btn": "Confira como funciona"
+      },
+      "item3": {
+        "title": "O caminho para a sustentabilidade: executivos discutem seus esforços em direção à neutralidade de carbono",
+        "btn": "Confira mais a seguir"
+      }
+    },
+    "last-section": {
+      "first-span": "A disponibilidade de produtos e recursos pode variar de acordo com o mercado e a localização. Para obter mais informações, clique",
+      "tag-a": "aqui",
+      "span2": "¹Com base em entrevistas com mais de 275 usuários da plataforma da Uber para Empresas no mundo todo em fevereiro de 2023. Os usuários confirmam que conseguiram reduzir os custos de transporte terrestre e/ou refeições por meio de uma melhor conformidade.",
+      "span3": "²O Uber Planet só está ativo em algumas cidades. Além disso, a disponibilidade pode ser limitada fora do centro das cidades.",
+      "span4": "³Com base em uma pesquisa feita em novembro de 2021 encomendada pela plataforma da Uber, que fez a seguinte pergunta a 323 usuários da Uber para Empresas: Qual é a probabilidade de você recomendar a plataforma da Uber para Empresas a um colega ou alguém da sua rede profissional?"
+    }
+  },
   "footer": {
     "Visit-Help-Center": "Acesse a Central de Ajuda",
     "company": {

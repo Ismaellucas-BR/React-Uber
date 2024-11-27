@@ -208,6 +208,93 @@
       "title": "Come reimagine with us"
     }
   },
+  "getting-started": {
+    "title": "Two ways to get started with Uber for Business",
+    "left-side": {
+      "title": "1. A self-serve approach to get set up and moving in minutes",
+      "itens-list": {
+        "item1": "For a limited time, your organization can receive up to R1000 in Uber credits for your company when you spend R10K+ in your first 90 days. Additional terms apply*",
+        "item2": "The fastest way to sign up, for smaller companies with occasional travel needs",
+        "item3": "Streamlined expensing, and the ability to pay with one credit card with zero service fees",
+        "item4": "Access to all dashboard features, including integrations with leading expense and travel platforms, customer support, sustainability metrics and help center"
+      }
+    },
+    "right-side": {
+      "title": "2. A tailored experience to fit your company’s needs",
+      "itens-list": {
+        "item1": "For companies of all sizes, that would prefer to talk to an agent",
+        "item2": "Ability to manage multiple payment methods in addition to streamlined expensing, invoicing support, and zero service fees",
+        "item3": "Dedicated support in addition to access to all dashboard features, including integrations with leading expense and travel platforms and sustainability metrics"
+      }
+    }
+  },
+  "solutions": {
+    "first-section": {
+      "title": "The best of Uber for your business",
+      "subtitle": "Uber for Business gives your organization more control, deeper insights, and features built for enterprise users. Manage and track business travel, meal programs, and more on one dashboard.",
+      "btn": "How to get started",
+      "btn2": "Check out our solutions"
+    },
+    "second-section": {
+      "title": "A global platform built on the world’s largest mobility network",
+      "item1": {
+        "title": "Achieve up to 10% cost savings through strengthened compliance.",
+        "subtitle": "Customers have praised the reduction in travel and meal expenses.¹ It is possible to manage expenditures and usage, and operate under the established usage rules. For corporate use, there are no fees or monthly fixed costs."
+      },
+      "item2": {
+        "title": "Meet sustainability goals with actionable insights",
+        "subtitle": "Track CO₂ emissions for every ride on a dashboard exclusive to Uber for Business. These insights can help you take action and leverage sustainable travel options like Uber Green.²"
+      },
+      "item3": {
+        "title": "Provide an exclusive experience for your teams",
+        "subtitle": "In addition to easy expensing and priority support, employees in select cities get access to ride options like Uber Business Comfort that allow your team to enjoy a premium travel experience."
+      },
+      "item4": {
+        "title": "Prioritize safety and security for your business",
+        "subtitle": "We offer additional crash-alert notifications for business users. Our latest US Safety Report shows that 99.9% of Uber trips are completed without any reported safety incidents."
+      }
+    },
+    "third-section": {
+      "title": "How companies leverage Uber for Business",
+      "item1": {
+        "title": "Business travel"
+      },
+      "item2": {
+        "title": "Courtesy rides"
+      }
+    },
+    "fourt-section": {
+      "title": "Get started with no upfront costs"
+    },
+    "fifth-section": {
+      "title": "Join over 170,000 companies working with us, including more than half of the Fortune 500",
+      "content": "\"Pay and basic benefits aren’t the endgame. You need to be actively listening to what employees need and want. One of our first added benefits was providing Uber credit for rides, so people could safely get a ride for work or for fun. We encourage employees to spend the credits however they want.\"",
+      "sub-content": " Founder and CEO, Parachute Media",
+      "bg-section-title": "9 out of 10 customers recommend choosing Uber for Business³"
+    },
+    "Blog-section": {
+      "title": "Interested in learning more?",
+      "item1": {
+        "title": "How to reduce the carbon footprint of business travel",
+        "btn": "See how"
+      },
+      "item2": {
+        "title": "The perks and benefits your employees want now",
+        "btn": "Find out"
+      },
+      "item3": {
+        "title": "The road to sustainability: executives discuss their efforts toward net zero",
+        "btn": "Keep reading"
+      }
+    },
+    "last-section": {
+      "first-span": "Product and feature availability may vary by market and location. To find out more, get started",
+      "tag-a": "here",
+      "span2": "¹Based on over 275 Uber for Business customers surveyed globally in February 2023. Customers agreed that they were able to reduce costs on ground transportation and/or meals through better compliance.",
+      "span3": "²Uber Green is available only in certain cities. In addition, availability may be limited outside of downtown areas to start.",
+      "span4": "³Based on a November 2021 survey commissioned by Uber, in which 323 Uber for Business customers responded to the question “How likely are you to recommend Uber for Business to a colleague or someone in your professional network?”"
+    }
+  },
   "footer": {
     "Visit-Help-Center": "Visit Help Center",
     "company": {
