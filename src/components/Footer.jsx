@@ -1,9 +1,27 @@
-import React from "react";
 import FooterMenu from "./footerMenu";
 import { useTranslation } from "react-i18next";
+import { useNavigate, useLocation } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 
 function Footer() {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const initialLang = location.pathname.split("/")[1] || "pt";
+  const [lang, setLang] = useState(initialLang);
+
+  useEffect(() => {
+    i18n.changeLanguage(lang);
+  }, [lang, i18n]);
+
+  const generateLocalizedLink = (path) => {
+    // Se o link for absoluto (começa com http), retorna sem alterações
+    if (path.startsWith("http")) return path;
+
+    // Adiciona o idioma ao início do path relativo
+    return `/${lang}${path.startsWith("/") ? path : `/${path}`}`;
+  };
+
   return (
     <section className="bg-black px-6 py-14 lg:p-16">
       <div className="flex flex-col gap-10 max-w-7xl mx-auto lg:gap-20">
@@ -25,7 +43,7 @@ function Footer() {
         <div className="flex flex-col gap-10 w-full max-w-7xl mx-auto lg:flex-row lg:gap-0">
           <FooterMenu
             title={t("footer.company.title")}
-            linkUm="/quem_somos"
+            linkUm={generateLocalizedLink("/quem_somos")}
             itemUm={t("footer.company.items.aboutUs")}
             linkDois="https://www.uber.com/br/pt-br/about/uber-offerings/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
             itemDois={t("footer.company.items.whatWeOffer")}

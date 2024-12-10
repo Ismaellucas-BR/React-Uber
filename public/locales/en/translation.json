@@ -335,5 +335,9 @@
         "cities": "Cities"
       }
     }
+  },
+  "PagesMenu": {
+    "dirigir": "Drive",
+    "sobre_nos": "About us"
   }
 }

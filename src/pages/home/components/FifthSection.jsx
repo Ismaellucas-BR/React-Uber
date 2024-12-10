@@ -1,8 +1,5 @@
-import RideIconApp from "../../../assets/svg/Rider-App-Icon_iOS.svg";
-import DriveIconApp from "../../../assets/svg/Driver-App-Icon_iOS.svg";
-import RideIconAppDesktop from "../../../assets/ride-app-desktop.webp";
-import DriveIconAppDesktop from "../../../assets/driver-app-desktop.webp";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 function FifthSection() {
   const { t, i18n } = useTranslation();
   return (
@@ -28,21 +25,26 @@ function FifthSection() {
                   {t("Title-QRCode")}
                 </span>
               </div>
-              <svg
-                aria-hidden="true"
-                focusable="false"
-                width="1em"
-                height="25"
-                fill="currentColor"
-                viewBox="0 0 36 36"
+              <Link
+                target="_blank"
+                to="https://www.uber.com/global/en/ride/app/?referrer=singular_click_id%3Da8175957-e855-4c52-a6f1-ff64f60d65de"
               >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M18.2354 2H24.2711L36 18L24.2711 34H18.2354L28.1237 20.56H0V15.44H28.1237L18.2354 2Z"
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  width="1em"
+                  height="25"
                   fill="currentColor"
-                ></path>
-              </svg>
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M18.2354 2H24.2711L36 18L24.2711 34H18.2354L28.1237 20.56H0V15.44H28.1237L18.2354 2Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </Link>
             </div>
           </div>
           <div className="ride-box flex justify-start items-center bg-white p-5 border-2 border-slate-200 w-full mt-10">
@@ -59,21 +61,26 @@ function FifthSection() {
                   {t("Title-QRCode2")}
                 </span>
               </div>
-              <svg
-                aria-hidden="true"
-                focusable="false"
-                width="1em"
-                height="25"
-                fill="currentColor"
-                viewBox="0 0 36 36"
+              <Link
+                target="_blank"
+                to="https://apps.apple.com/us/app/uber-driver-drive-deliver/id1131342792?referrer=singular_click_id%3D41bde22f-9b1c-41ec-900c-cfee737e82d2"
               >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M18.2354 2H24.2711L36 18L24.2711 34H18.2354L28.1237 20.56H0V15.44H28.1237L18.2354 2Z"
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  width="1em"
+                  height="25"
                   fill="currentColor"
-                ></path>
-              </svg>
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M18.2354 2H24.2711L36 18L24.2711 34H18.2354L28.1237 20.56H0V15.44H28.1237L18.2354 2Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </Link>
             </div>
           </div>
         </div>
@@ -97,21 +104,26 @@ function FifthSection() {
                   {t("SubTitle-QRCode")}
                 </div>
               </div>
-              <svg
-                aria-hidden="true"
-                focusable="false"
-                width="1em"
-                height="25"
-                fill="currentColor"
-                viewBox="0 0 36 36"
+              <Link
+                target="_blank"
+                to="https://www.uber.com/global/en/ride/app/?referrer=singular_click_id%3Da8175957-e855-4c52-a6f1-ff64f60d65de"
               >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M18.2354 2H24.2711L36 18L24.2711 34H18.2354L28.1237 20.56H0V15.44H28.1237L18.2354 2Z"
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  width="1em"
+                  height="25"
                   fill="currentColor"
-                ></path>
-              </svg>
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M18.2354 2H24.2711L36 18L24.2711 34H18.2354L28.1237 20.56H0V15.44H28.1237L18.2354 2Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </Link>
             </div>
           </div>
           <div className="ride-box flex justify-start items-center bg-white p-5 border-2 border-slate-200 w-full mt-10 lg:mt-0 lg:py-6 lg:px-6">
@@ -133,21 +145,26 @@ function FifthSection() {
                   {t("SubTitle-QRCode2")}
                 </div>
               </div>
-              <svg
-                aria-hidden="true"
-                focusable="false"
-                width="1em"
-                height="25"
-                fill="currentColor"
-                viewBox="0 0 36 36"
+              <Link
+                target="_blank"
+                to="https://apps.apple.com/us/app/uber-driver-drive-deliver/id1131342792?referrer=singular_click_id%3D41bde22f-9b1c-41ec-900c-cfee737e82d2"
               >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M18.2354 2H24.2711L36 18L24.2711 34H18.2354L28.1237 20.56H0V15.44H28.1237L18.2354 2Z"
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  width="1em"
+                  height="25"
                   fill="currentColor"
-                ></path>
-              </svg>
+                  viewBox="0 0 36 36"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M18.2354 2H24.2711L36 18L24.2711 34H18.2354L28.1237 20.56H0V15.44H28.1237L18.2354 2Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </Link>
             </div>
           </div>
         </div>

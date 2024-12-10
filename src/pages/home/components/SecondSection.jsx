@@ -1,7 +1,13 @@
 import { useTranslation } from "react-i18next";
+import { Link, useLocation } from "react-router-dom";
+import React, { useState } from "react";
 
 function SecondSc() {
+  const location = useLocation();
+  const initialLang = location.pathname.split("/")[1] || "pt";
+  const [lang, setLang] = useState(initialLang);
   const { t, i18n } = useTranslation();
+
   return (
     <section className="bg-white flex flex-col-reverse items-center justify-between w-full max-w-7xl mx-auto pt-10 px-5  sm:pt-20 lg:flex lg:flex-row sm:pb-10">
       <div className="w-full left-side mt-5 pt-4  flex justify-end sm:mt-0   sm:pt-10 sm:justify-between lg:w-3/5">
@@ -23,9 +29,9 @@ function SecondSc() {
         </p>
 
         <div className="loginRedirect flex items-center mt-4 gap-5">
-          <a className="btn-start mr-4" href="/dirigir">
+          <Link className="btn-start mr-4" to={`/${lang}/dirigir`}>
             {t("second-btn")}
-          </a>
+          </Link>
         </div>
       </div>
     </section>

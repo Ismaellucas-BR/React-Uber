@@ -12,11 +12,17 @@ i18n.use(initReactI18next).init({
       translation: translationEn,
     },
   },
-  lng: "pt", // ou 'en', dependendo do idioma inicial
-  fallbackLng: "pt",
+  lng: "pt", // idioma padrão (pode ser dinâmico)
+  fallbackLng: "pt", // fallback para pt caso o idioma não seja encontrado
   interpolation: {
     escapeValue: false,
   },
+});
+
+// Atualiza o idioma baseado na URL
+i18n.on("languageChanged", (lng) => {
+  // Aqui você pode garantir que o idioma no i18n seja sempre atualizado
+  console.log(`Idioma alterado para: ${lng}`);
 });
 
 export default i18n;

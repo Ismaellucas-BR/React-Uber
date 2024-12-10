@@ -133,3 +133,6 @@
     --radius: 0.5rem;
   }
 }
+button svg {
+  color: white !important;
+}
