@@ -9,7 +9,7 @@ function FifthSection() {
   return (
     <section className="w-full pb-10">
       <div className="bg-blue-00 flex flex-col items-center justify-center w-full h-[16.5rem]">
-        <h2 className="font-UberMoveBold text-3xl text-white text-center md:text-4xl w-1/2 lead-[3rem]">
+        <h2 className="font-UberMoveBold text-3xl text-white text-center md:text-4xl md:w-1/2 lead-[3rem]">
           {t("solutions.fifth-section.bg-section-title")}
         </h2>
       </div>
@@ -17,7 +17,7 @@ function FifthSection() {
         <h2 className="w-full font-UberMoveBold text-3xl text-left md:text-4xl">
           {t("solutions.Blog-section.title")}
         </h2>
-        <div className="md:flex md:gap-10">
+        <div className="flex flex-col gap-5 md:flex-row md:gap-10">
           <BlogComponent
             image={CarFillingUp}
             title={t("solutions.Blog-section.item1.title")}
@@ -49,7 +49,7 @@ function FifthSection() {
         <div className=" flex flex-col gap-3 font-UberMoveNormal text-[1rem] text-gray-33 mt-5">
           <span>
             {t("solutions.last-section.first-span")}
-            <a className="underline" href="/getting-started">
+            <a className="underline ml-1" href="/getting-started">
               {t("solutions.last-section.tag-a")}
             </a>
             .

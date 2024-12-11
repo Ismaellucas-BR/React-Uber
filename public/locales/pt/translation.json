@@ -341,5 +341,9 @@
   "PagesMenu": {
     "dirigir": "Dirigir",
     "sobre_nos": "Sobre nós"
+  },
+  "alert": {
+    "titulo": "Atenção",
+    "subtitulo": "Este site tem caráter estudantil. Nenhuma informação aqui deve ser interpretada ou utilizada com fins comerciais."
   }
 }

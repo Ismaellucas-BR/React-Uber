@@ -11,12 +11,12 @@ function FourtSection() {
   return (
     <section className="w-full bg-gray-f3">
       <div className="div-classes-iniciais  pb-10">
-        <div className="flex flex-col items-center justify-center md:w-1/2">
+        <div className="flex flex-col items-center justify-center lg:w-1/2">
           <h2 className="font-UberMoveBold text-[1.75rem] text-center md:text-4xl">
             {t("solutions.fifth-section.title")}
           </h2>
         </div>
-        <div className="flex flex-col gap-3 md:flex-row">
+        <div className="flex flex-col gap-3 lg:flex-row">
           <img
             className="md:w-[22.5rem] md:h-[12.75rem]"
             src={LogoZoom}

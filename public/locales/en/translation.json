@@ -339,5 +339,9 @@
   "PagesMenu": {
     "dirigir": "Drive",
     "sobre_nos": "About us"
+  },
+  "alert": {
+    "titulo": "Attention",
+    "subtitulo": "This site is student-oriented. No information here should be interpreted or used for commercial purposes."
   }
 }

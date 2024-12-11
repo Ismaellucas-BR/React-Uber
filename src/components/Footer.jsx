@@ -45,41 +45,41 @@ function Footer() {
             title={t("footer.company.title")}
             linkUm={generateLocalizedLink("/quem_somos")}
             itemUm={t("footer.company.items.aboutUs")}
-            linkDois="https://www.uber.com/br/pt-br/about/uber-offerings/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
+            linkDois=""
             itemDois={t("footer.company.items.whatWeOffer")}
-            linkTres="https://www.uber.com/pt-BR/newsroom/"
+            linkTres=""
             itemTres={t("footer.company.items.newsroom")}
-            linkQuatro="https://investor.uber.com/home/default.aspx"
+            linkQuatro=""
             itemQuatro={t("footer.company.items.investors")}
-            linkCinco="https://www.uber.com/en-BR/blog/recife/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
+            linkCinco=""
             itemCinco="Blog"
-            linkSeis="https://www.uber.com/br/pt-br/careers/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
+            linkSeis=""
             itemSeis={t("footer.company.items.careers")}
           />
           <FooterMenu
             title={t("footer.products.title")}
-            linkUm="https://www.uber.com/br/pt-br/ride/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
+            linkUm=""
             itemUm={t("footer.products.items.travel")}
             linkDois="/dirigir"
             itemDois={t("footer.products.items.drive")}
-            linkTres="https://www.uber.com/br/pt-br/deliver/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
+            linkTres=""
             itemTres={t("footer.products.items.deliver")}
-            linkQuatro="https://www.ubereats.com/br?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff&marketing_vistor_id=13e8c7ec-0f3f-4bf4-85e6-ee7c3b2695bb&_gl=1*8xfbo4*_ga*MTg2NTAxMDUxMi4xNzA5NTc1NDQ2*_ga_XTGQLY6KPT*MTcxNjY0NDI1NC40My4xLjE3MTY2NDg0MzkuMC4wLjA."
+            linkQuatro=""
             itemQuatro={t("footer.products.items.order")}
-            linkCinco="https://www.uber.com/br/pt-br/business/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
+            linkCinco=""
             itemCinco={t("footer.products.items.business")}
-            linkSeis="https://www.uberfreight.com/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff&_gl=1*eoswez*_ga*MTg2NTAxMDUxMi4xNzA5NTc1NDQ2*_ga_XTGQLY6KPT*MTcxNjY0NDI1NC40My4xLjE3MTY2NDg0MzkuMC4wLjA."
+            linkSeis=""
             itemSeis={t("footer.products.items.freight")}
             showlink7="true"
             showlink8="true"
           />
           <FooterMenu
             title={t("footer.globalCitizenship.title")}
-            linkUm="https://www.uber.com/br/pt-br/safety/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
+            linkUm=""
             itemUm={t("footer.globalCitizenship.items.safety")}
-            linkDois="https://www.uber.com/br/pt-br/about/diversity/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
+            linkDois=""
             itemDois={t("footer.globalCitizenship.items.diversity")}
-            linkTres="https://www.uber.com/br/pt-br/about/sustainability/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
+            linkTres=""
             itemTres={t("footer.globalCitizenship.items.sustainability")}
             showlink4="true"
             showlink5="true"
@@ -89,11 +89,11 @@ function Footer() {
           />
           <FooterMenu
             title={t("footer.travel.title")}
-            linkUm="https://auth.uber.com/v2/?breeze_init_req_id=97f70d91-a219-411a-96a7-4e5cc060ce4c&breeze_local_zone=dca50&next_url=https%3A%2F%2Fm.uber.com%2Flogin-redirect%2F%3F_fallback_redirect%3Dhttp%253A%252F%252Fm.uber.com%252Freserve%26mvid%3D13e8c7ec-0f3f-4bf4-85e6-ee7c3b2695bb%26previousPath%3D%252Freserve%26referrer%3Dsingular_click_id%253Ddcd529d0-a4b2-4f0d-8b78-ea68a6d60206%26sl_id%3Do42y%26uclick_id%3De960c8d0-b70d-419b-ab6f-2355b16b9bff&state=pBkKhlmKyM_1qs6Tk9leoWI0GsrC0W9i85-0vaa07E0%3D"
+            linkUm=""
             itemUm={t("footer.travel.items.book")}
-            linkDois="https://www.uber.com/global/pt-br/airports/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
+            linkDois=""
             itemDois={t("footer.travel.items.airports")}
-            linkTres="https://www.uber.com/global/pt-br/cities/?uclick_id=e960c8d0-b70d-419b-ab6f-2355b16b9bff"
+            linkTres=""
             itemTres={t("footer.travel.items.cities")}
             showlink4="true"
             showlink5="true"

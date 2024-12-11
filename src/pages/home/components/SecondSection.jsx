@@ -29,7 +29,7 @@ function SecondSc() {
         </p>
 
         <div className="loginRedirect flex items-center mt-4 gap-5">
-          <Link className="btn-start mr-4" to={`/${lang}/dirigir`}>
+          <Link className="btn-start mr-4" to={`/${lang}/dirigir/`}>
             {t("second-btn")}
           </Link>
         </div>

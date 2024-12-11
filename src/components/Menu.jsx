@@ -8,12 +8,12 @@ import {
 } from "./ui/sheet";
 import { List } from "@phosphor-icons/react";
 import { useTranslation } from "react-i18next";
-import ChangeLanguage from "../components/ChangeLanguage";
 import DropdownIcon from "../icons/DropdownIcon";
 import IconUser from "../assets/icon_user.png";
 import LanguageSwitcher from "./LanguageSwitcher";
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 function Menu() {
   const { t, i18n } = useTranslation(); // Obtendo a instância do i18next
   const changeLanguage = (lng) => {
@@ -64,9 +64,17 @@ function Menu() {
           {/* Usando a tradução aqui */}
           <SheetDescription>
             <ul className="flex flex-col items-start text-left gap-4 p-4 text-black font-UberMoveBold text-3xl">
-              <li>Home</li>
-              <li>{t("PagesMenu.dirigir")}</li>
-              <li>{t("PagesMenu.sobre_nos")}</li>
+              <li>
+                <Link to={`/${lang}`}>Home</Link>
+              </li>
+              <li>
+                <Link to={`/${lang}/dirigir`}>{t("PagesMenu.dirigir")}</Link>
+              </li>
+              <li>
+                <Link to={`/${lang}/quem_somos`}>
+                  {t("PagesMenu.sobre_nos")}
+                </Link>
+              </li>
             </ul>
           </SheetDescription>
         </SheetHeader>
